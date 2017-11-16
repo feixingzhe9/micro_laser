@@ -1,0 +1,1967 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>2144928960</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pcd_ex.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rtc.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_crc.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_eth.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rtc_ex.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_i2c.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_msp_template.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_hcd.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pccard.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_irda.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pcd.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_adc.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_can.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cec.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dac.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_nor.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dac_ex.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_iwdg.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_adc_ex.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_i2s.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_nand.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\platforms\Cortex-M3\crt0_EWARM.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\mico_platform.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\library\utilities\RingBufferUtils.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\platforms\Cortex-M3\hardfault.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\board\PowerBoard_V2\bootloaderLinkerForIAR.icf</file>
+      <file>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\EWARM\startup_stm32f103xb_bootloader_EWARM.s</file>
+      <file>$PROJ_DIR$\..\..\..\..\library\utilities\TLVUtils.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\MiCOSRPServer.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\library\utilities\AESUtils.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\library\utilities\StringUtils.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\library\utilities\URLUtils.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\platforms\EWARM\Retarget.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\mico_security.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\mico_rtos.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\library\utilities\SecurityUtils.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\library\utilities\URLUtils.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\EWARM\startup_stm32f103xe_bootloader_EWARM.s</file>
+      <file>$PROJ_DIR$\..\..\..\..\kernel\RTOS\NoRTOS\rtos.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\library\utilities\CheckSumUtils.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\library\utilities\SecurityUtils.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\library\utilities\RingBufferUtils.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\library\utilities\TLVUtils.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\mico_system.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\mico_socket.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\library\utilities\StringUtils.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\library\utilities\AESUtils.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\library\utilities\CheckSumUtils.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_spi.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\stm32f1xx_hal_conf.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_sd.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\system_stm32f1xx.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\stm32f1xx_hal_usart.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\stm32f1xx_hal_wwdg.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_sdmmc.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\platform_mcu_peripheral.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\platform_mcu_powersave.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\platform_init.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_usart.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_sram.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\platform_can.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_spi_ex.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_fsmc.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_usb.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\platform_gpio.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\platform_uart.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\platform_watchdog.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\platforms\MCUs\mico_platform_common.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\platform_flash.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_wwdg.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_smartcard.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\stm32f1xx_hal_cec.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\stm32f1xx_hal_crc.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\stm32f1xx_hal_can.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\stm32f1xx_hal_cortex.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\stm32f1xx_hal_dac.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\stm32f1xx_hal_dac_ex.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\stm32f1xx_hal_dma.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\stm32f1xx_hal_eth.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\MiCODrivers\MiCODriverRtc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\MiCODrivers\MiCODriverWdg.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\debug.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\common.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\MiCODrivers\MiCODriverRng.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\MiCODrivers\MiCODriverUart.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\MiCODrivers\MiCODriverSpi.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\mico.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\board\PowerBoard\platform.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\board\PowerBoard\platform.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\board\PowerBoard\platform_config.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\bootloader\Getline.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\bootloader\ymodem.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\MiCODrivers\MiCODriverAdc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\MiCODrivers\MiCODriverFlash.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\bootloader\BootloaderEntrance.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\bootloader\menu.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\MiCODrivers\MiCODriverGpio.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\board\PowerBoard_V2\platform.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\MiCODrivers\MiCODriverPwm.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\MiCODrivers\MiCODriverI2c.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\bootloader\Update_for_OTA.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\MiCODrivers\MiCODriverNanoSecond.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\MiCODrivers\MiCODriverMFiAuth.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\board\PowerBoard_V2\platform_config.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\board\PowerBoard_V2\platform.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\stm32f1xx_hal_spi_ex.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\stm32f1xx_hal_sram.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\stm32f1xx_hal_i2c.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\stm32f1xx_hal_tim.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\stm32f1xx_hal_tim_ex.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\stm32f1xx_hal_uart.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\stm32f1xx_hal_iwdg.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\stm32f1xx_hal_pcd.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\stm32f1xx_ll_fsmc.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\stm32f1xx_hal_rtc.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\stm32f1xx_hal_msp_template.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\stm32f1xx_hal_irda.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\stm32f1xx_hal_gpio.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\stm32f1xx_hal_i2s.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\stm32f1xx_hal_nand.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\stm32f1xx_hal_pcd_ex.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\stm32f1xx_hal_pwr.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\stm32f1xx_hal_gpio_ex.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\stm32f1xx_hal_rcc.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\stm32f1xx_hal_nor.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\stm32f1xx_hal_rtc_ex.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\stm32f1xx_hal_pccard.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\stm32f1xx_hal_spi.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\stm32f1xx_hal_flash_ex.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\stm32f1xx_hal_hcd.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\stm32f1xx_hal_rcc_ex.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\stm32f1xx_hal_sd.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\stm32f1xx_hal_smartcard.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\AESUtils.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\platform.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\URLUtils.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\TLVUtils.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\stm32f1xx_hal_adc_ex.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\RingBufferUtils.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\StringUtils.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\crt0_EWARM.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\SecurityUtils.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\Getline.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\rtos.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\ymodem.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\CheckSumUtils.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\BootloaderEntrance.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\menu.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\Update_for_OTA.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\stm32f1xx_hal.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\Retarget.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\stm32f1xx_hal_adc.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\stm32f1xx_hal_flash.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\hardfault.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\hardfault.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\TLVUtils.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\stm32f1xx_hal.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\stm32f1xx_hal_adc_ex.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\CheckSumUtils.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\Retarget.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\stm32f1xx_hal_can.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\stm32f1xx_hal_cec.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\stm32f1xx_hal_cortex.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\AESUtils.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\SecurityUtils.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\stm32f1xx_hal_adc.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\stm32f1xx_hal_crc.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\stm32f1xx_hal_dac.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\RingBufferUtils.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\crt0_EWARM.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\StringUtils.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\rtos.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\URLUtils.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\Update_for_OTA.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\Getline.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\stm32f1xx_hal_dac_ex.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\stm32f1xx_ll_usb.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\system_stm32f1xx.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\platform_mcu_powersave.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\ymodem.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\startup_stm32f103xb_bootloader_EWARM.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\mico_platform_common.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\startup_stm32f103xe_bootloader_EWARM.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\BootloaderEntrance.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\platform_watchdog.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\stm32f1xx_ll_sdmmc.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\platform_gpio.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\menu.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\platform_can.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\platform_flash.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\platform_init.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\platform_uart.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\platform.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\stm32f1xx_hal_flash_ex.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\stm32f1xx_hal_pcd.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\stm32f1xx_hal_irda.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\stm32f1xx_hal_rcc.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\stm32f1xx_hal_gpio.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\stm32f1xx_hal_i2c.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\stm32f1xx_hal_hcd.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\stm32f1xx_hal_dma.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\stm32f1xx_hal_gpio_ex.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\stm32f1xx_hal_i2s.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\stm32f1xx_hal_nor.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\stm32f1xx_hal_rtc.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\stm32f1xx_hal_iwdg.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\stm32f1xx_hal_nand.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\stm32f1xx_hal_pcd_ex.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\stm32f1xx_hal_pwr.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\stm32f1xx_hal_rcc_ex.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\stm32f1xx_hal_spi.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\stm32f1xx_hal_rtc_ex.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\stm32f1xx_hal_sd.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\stm32f1xx_hal_pccard.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\stm32f1xx_hal_flash.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\stm32f1xx_hal_eth.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\stm32f1xx_hal_msp_template.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\stm32f1xx_hal_tim.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\stm32f1xx_ll_sdmmc.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\stm32f1xx_ll_usb.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\platform_gpio.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\stm32f1xx_hal_smartcard.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\system_stm32f1xx.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\platform_mcu_powersave.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\platform_uart.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\platform_watchdog.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\stm32f1xx_ll_fsmc.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\platform_init.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\stm32f1xx_hal_spi_ex.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\stm32f1xx_hal_wwdg.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Output\bootloader.out</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\platform_can.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\mico_platform_common.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\bootloader.pbd</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\platform_flash.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Output\bootloader.hex</file>
+      <file>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\stm32f1xx_hal_tim_ex.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\stm32f1xx_hal_sram.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\stm32f1xx_hal_usart.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Objs\stm32f1xx_hal_uart.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xlocale.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_iwdg.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\platforms\Cortex-M3\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xlocale_c.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_can.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\bootloader\mico_config.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_crc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_wwdg.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\platforms\include\EWARM\platform_toolchain.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\platforms\Cortex-M3\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\platforms\include\platform_peripheral.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ctype.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\platforms\Cortex-M3\platform_assert.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_usart.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_can_ex.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\platforms\include\platform_logging.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\platforms\Cortex-M3\CMSIS\Include\core_cmInstr.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xmtx.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\platforms\Cortex-M3\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xtls.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\wchar.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xlocaleuse.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdarg.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\MiCODrivers\MiCODriverCan.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc_ex.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\platforms\Cortex-M3\CMSIS\Include\core_cm3.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\platforms\Cortex-M3\CMSIS\Include\core_cmFunc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\platforms\include\platform_init.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\yfuns.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\bootloader\bootloader.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\platforms\include\platform_internal.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\kernel\security\SHAUtils\sha.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\kernel\security\Curve25519\curve25519-donna.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\platforms\Cortex-M3\crt0.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\bootloader\ymodem.h</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pcd_ex.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 220</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 133</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 296 280 263 276 313 289 59 273 281 272 275 265 298 261 262 270 259 258 288 314 255 274 292 249 287 277 282 283 290 291 303 294 302 301 297 267 256 295 268 254 310 312 308 309</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 291 59 272 296 283 265 313 288 255 297 294 301 298 268 302 295 256 267 314 303 258 290 254 274 282 262 292 263 310 270 289 275 259 312 276 273 308 261 280 281 309 249 287 277</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rtc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 217</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 127</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 296 280 263 276 313 289 59 273 281 272 275 265 298 261 262 270 259 258 288 314 255 274 292 249 287 277 282 283 290 291 303 294 302 301 297 267 256 295 268 254 310 312 308 309</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 291 59 272 296 283 265 313 288 255 297 294 301 298 268 302 295 256 267 314 303 258 290 254 274 282 262 292 263 310 270 289 275 259 312 276 273 308 261 280 281 309 249 287 277</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 221</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 134</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 280 296 263 276 313 289 59 273 281 272 275 265 298 261 262 270 259 258 288 314 255 274 292 291 249 287 277 282 283 290 303 294 302 301 297 267 256 295 268 254 310 312 308 309</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 291 59 272 296 283 265 313 288 255 297 294 301 298 268 302 295 256 267 314 303 258 290 254 274 282 262 292 263 310 270 289 275 259 312 276 273 308 261 280 281 309 249 287 277</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_crc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 179</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 85</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 270 296 289 261 262 259 258 288 298 59 273 280 281 272 263 275 276 265 313 314 255 274 292 291 249 287 277 282 283 290 303 294 302 301 297 267 256 295 268 254 310 312 308 309</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 291 59 272 296 283 265 313 288 255 297 294 301 298 268 302 295 256 267 314 303 258 290 254 274 282 262 292 263 310 270 289 275 259 312 276 273 308 261 280 281 309 249 287 277</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 213</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 90</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 296 259 288 261 262 258 289 270 298 291 59 273 280 281 272 263 275 276 265 313 314 255 274 292 249 287 277 282 283 290 303 294 302 301 297 267 256 295 268 254 310 312 308 309</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 291 59 272 296 283 265 313 288 255 297 294 301 298 268 302 295 256 267 314 303 258 290 254 274 282 262 292 263 310 270 289 275 259 312 276 273 308 261 280 281 309 249 287 277</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 175</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 87</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 296 249 303 289 287 282 283 298 291 277 290 314 255 274 292 59 273 261 280 281 272 262 263 270 275 259 276 258 265 313 288 294 302 301 297 267 256 295 268 254 310 312 308 309</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 291 59 272 296 283 265 313 288 255 297 294 301 298 268 302 295 256 267 314 303 258 290 254 274 282 262 292 263 310 270 289 275 259 312 276 273 308 261 280 281 309 249 287 277</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_eth.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 228</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 91</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 296 280 263 276 313 289 59 273 281 272 275 265 298 261 262 270 259 258 288 314 255 274 292 249 287 277 282 283 290 291 303 294 302 301 297 267 256 295 268 254 310 312 308 309</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 291 59 272 296 283 265 313 288 255 297 294 301 298 268 302 295 256 267 314 303 258 290 254 274 282 262 292 263 310 270 289 275 259 312 276 273 308 261 280 281 309 249 287 277</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rtc_ex.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 224</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 138</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 296 280 263 276 313 289 59 273 281 272 275 265 298 261 262 270 259 258 288 314 255 274 292 249 287 277 282 283 290 291 303 294 302 301 297 267 256 295 268 254 310 312 308 309</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 291 59 272 296 283 265 313 288 255 297 294 301 298 268 302 295 256 267 314 303 258 290 254 274 282 262 292 263 310 270 289 275 259 312 276 273 308 261 280 281 309 249 287 277</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_i2c.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 211</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 120</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 296 280 263 276 313 289 59 273 281 272 275 265 298 261 262 270 259 258 288 314 255 274 292 249 287 277 282 283 290 291 303 294 302 301 297 267 256 295 268 254 310 312 308 309</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 291 59 272 296 283 265 313 288 255 297 294 301 298 268 302 295 256 267 314 303 258 290 254 274 282 262 292 263 310 270 289 275 259 312 276 273 308 261 280 281 309 249 287 277</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_msp_template.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 229</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 128</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 296 280 263 276 313 289 59 273 281 272 275 265 298 261 262 270 259 258 288 314 255 274 292 249 287 277 282 283 290 291 303 294 302 301 297 267 256 295 268 254 310 312 308 309</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 291 59 272 296 283 265 313 288 255 297 294 301 298 268 302 295 256 267 314 303 258 290 254 274 282 262 292 263 310 270 289 275 259 312 276 273 308 261 280 281 309 249 287 277</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_hcd.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 212</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 142</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 296 280 263 276 313 289 59 273 281 272 275 265 298 261 262 270 259 258 288 314 255 274 292 249 287 277 282 283 290 291 303 294 302 301 297 267 256 295 268 254 310 312 308 309</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 291 59 272 296 283 265 313 288 255 297 294 301 298 268 302 295 256 267 314 303 258 290 254 274 282 262 292 263 310 270 289 275 259 312 276 273 308 261 280 281 309 249 287 277</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pccard.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 226</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 139</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 296 280 263 276 313 289 59 273 281 272 275 265 298 261 262 270 259 258 288 314 255 274 292 249 287 277 282 283 290 291 303 294 302 301 297 267 256 295 268 254 310 312 308 309</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 291 59 272 296 283 265 313 288 255 297 294 301 298 268 302 295 256 267 314 303 258 290 254 274 282 262 292 263 310 270 289 275 259 312 276 273 308 261 280 281 309 249 287 277</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_irda.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 208</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 129</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 296 280 263 276 313 289 59 273 281 272 275 265 298 261 262 270 259 258 288 314 255 274 292 249 287 277 282 283 290 291 303 294 302 301 297 267 256 295 268 254 310 312 308 309</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 291 59 272 296 283 265 313 288 255 297 294 301 298 268 302 295 256 267 314 303 258 290 254 274 282 262 292 263 310 270 289 275 259 312 276 273 308 261 280 281 309 249 287 277</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pcd.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 207</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 125</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 296 280 263 276 313 289 59 273 281 272 275 265 298 261 262 270 259 258 288 314 255 274 292 249 287 277 282 283 290 291 303 294 302 301 297 267 256 295 268 254 310 312 308 309</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 291 59 272 296 283 265 313 288 255 297 294 301 298 268 302 295 256 267 314 303 258 290 254 274 282 262 292 263 310 270 289 275 259 312 276 273 308 261 280 281 309 249 287 277</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 227</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 165</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 296 290 291 289 277 298 249 287 282 283 303 314 255 274 292 59 273 261 280 281 272 262 263 270 275 259 276 258 265 313 288 294 302 301 297 267 256 295 268 254 310 312 308 309</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 291 59 272 296 283 265 313 288 255 297 294 301 298 268 302 295 256 267 314 303 258 290 254 274 282 262 292 263 310 270 289 275 259 312 276 273 308 261 280 281 309 249 287 277</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 209</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 136</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 288 296 259 261 262 258 289 270 298 291 59 273 280 281 272 263 275 276 265 314 255 274 292 249 287 277 282 283 290 313 294 302 301 297 267 256 303 295 268 254 310 312 308 309</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 291 59 272 296 283 265 313 288 255 297 294 301 298 268 302 295 256 267 314 303 258 290 254 274 282 262 292 263 310 270 289 275 259 312 276 273 308 261 280 281 309 249 287 277</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 222</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 143</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 296 290 291 289 277 298 249 287 282 283 303 314 255 274 292 59 273 261 280 281 272 262 263 270 275 259 276 258 265 313 288 294 302 301 297 267 256 295 268 254 310 312 308 309</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 291 59 272 296 283 265 313 288 255 297 294 301 298 268 302 295 256 267 314 303 258 290 254 274 282 262 292 263 310 270 289 275 259 312 276 273 308 261 280 281 309 249 287 277</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_adc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 178</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 164</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 265 288 275 296 59 281 273 272 289 280 263 276 298 261 262 270 259 258 314 255 274 292 291 249 287 277 282 283 290 313 294 302 301 297 267 256 303 295 268 254 310 312 308 309</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 291 59 272 296 283 265 313 288 255 297 294 301 298 268 302 295 256 267 314 303 258 290 254 274 282 262 292 263 310 270 289 275 259 312 276 273 308 261 280 281 309 249 287 277</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_can.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 173</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 86</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 288 296 59 281 275 265 273 272 289 280 263 276 298 261 262 270 259 258 314 255 274 292 291 249 287 277 282 283 290 313 294 302 301 297 267 256 303 295 268 254 310 312 308 309</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 291 59 272 296 283 265 313 288 255 297 294 301 298 268 302 295 256 267 314 303 258 290 254 274 282 262 292 263 310 270 289 275 259 312 276 273 308 261 280 281 309 249 287 277</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cec.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 174</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 84</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 296 280 263 276 313 289 59 273 281 272 275 265 298 261 262 270 259 258 288 314 255 274 292 249 287 277 282 283 290 291 303 294 302 301 297 267 256 295 268 254 310 312 308 309</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 291 59 272 296 283 265 313 288 255 297 294 301 298 268 302 295 256 267 314 303 258 290 254 274 282 262 292 263 310 270 289 275 259 312 276 273 308 261 280 281 309 249 287 277</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dac.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 180</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 88</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 296 280 263 276 313 289 59 273 281 272 275 265 298 261 262 270 259 258 288 314 255 274 292 249 287 277 282 283 290 291 303 294 302 301 297 267 256 295 268 254 310 312 308 309</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 291 59 272 296 283 265 313 288 255 297 294 301 298 268 302 295 256 267 314 303 258 290 254 274 282 262 292 263 310 270 289 275 259 312 276 273 308 261 280 281 309 249 287 277</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 206</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 141</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 288 296 273 272 291 59 281 275 265 289 280 263 276 298 261 262 270 259 258 314 255 274 292 249 287 277 282 283 290 313 294 302 301 297 267 256 303 295 268 254 310 312 308 309</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 291 59 272 296 283 265 313 288 255 297 294 301 298 268 302 295 256 267 314 303 258 290 254 274 282 262 292 263 310 270 289 275 259 312 276 273 308 261 280 281 309 249 287 277</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 210</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 130</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 288 296 249 303 289 291 287 282 283 298 277 290 314 255 274 292 59 273 261 280 281 272 262 263 270 275 259 276 258 265 313 294 302 301 297 267 256 295 268 254 310 312 308 309</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 291 59 272 296 283 265 313 288 255 297 294 301 298 268 302 295 256 267 314 303 258 290 254 274 282 262 292 263 310 270 289 275 259 312 276 273 308 261 280 281 309 249 287 277</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 169</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 162</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 296 313 276 280 263 289 59 273 281 272 275 265 298 291 261 262 270 259 258 288 314 255 274 292 249 287 277 282 283 290 303 294 302 301 297 267 256 295 268 254 310 312 308 309</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 291 59 272 296 283 265 313 288 255 297 294 301 298 268 302 295 256 267 314 303 258 290 254 274 282 262 292 263 310 270 289 275 259 312 276 273 308 261 280 281 309 249 287 277</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_nor.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 216</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 137</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 296 280 263 276 313 289 59 273 281 272 275 265 298 261 262 270 259 258 288 314 255 274 292 249 287 277 282 283 290 291 303 294 302 301 297 267 256 295 268 254 310 312 308 309</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 291 59 272 296 283 265 313 288 255 297 294 301 298 268 302 295 256 267 314 303 258 290 254 274 282 262 292 263 310 270 289 275 259 312 276 273 308 261 280 281 309 249 287 277</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 214</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 135</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 296 277 289 290 291 298 249 287 282 283 303 314 255 274 292 59 273 261 280 281 272 262 263 270 275 259 276 258 265 313 288 294 302 301 297 267 256 295 268 254 310 312 308 309</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 291 59 272 296 283 265 313 288 255 297 294 301 298 268 302 295 256 267 314 303 258 290 254 274 282 262 292 263 310 270 289 275 259 312 276 273 308 261 280 281 309 249 287 277</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dac_ex.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 188</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 89</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 296 280 263 276 313 289 59 273 281 272 275 265 298 261 262 270 259 258 288 314 255 274 292 249 287 277 282 283 290 291 303 294 302 301 297 267 256 295 268 254 310 312 308 309</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 291 59 272 296 283 265 313 288 255 297 294 301 298 268 302 295 256 267 314 303 258 290 254 274 282 262 292 263 310 270 289 275 259 312 276 273 308 261 280 281 309 249 287 277</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_iwdg.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 218</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 124</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 296 291 287 282 283 289 249 303 298 277 290 314 255 274 292 59 273 261 280 281 272 262 263 270 275 259 276 258 265 313 288 294 302 301 297 267 256 295 268 254 310 312 308 309</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 291 59 272 296 283 265 313 288 255 297 294 301 298 268 302 295 256 267 314 303 258 290 254 274 282 262 292 263 310 270 289 275 259 312 276 273 308 261 280 281 309 249 287 277</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_adc_ex.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 170</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 150</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 288 296 276 280 263 289 59 273 281 272 275 265 298 291 261 262 270 259 258 314 255 274 292 249 287 277 282 283 290 313 294 302 301 297 267 256 303 295 268 254 310 312 308 309</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 291 59 272 296 283 265 313 288 255 297 294 301 298 268 302 295 256 267 314 303 258 290 254 274 282 262 292 263 310 270 289 275 259 312 276 273 308 261 280 281 309 249 287 277</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_i2s.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 215</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 131</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 296 280 263 276 313 289 59 273 281 272 275 265 298 261 262 270 259 258 288 314 255 274 292 249 287 277 282 283 290 291 303 294 302 301 297 267 256 295 268 254 310 312 308 309</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 291 59 272 296 283 265 313 288 255 297 294 301 298 268 302 295 256 267 314 303 258 290 254 274 282 262 292 263 310 270 289 275 259 312 276 273 308 261 280 281 309 249 287 277</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_nand.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 219</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 132</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 296 280 263 276 313 289 59 273 281 272 275 265 298 261 262 270 259 258 288 314 255 274 292 249 287 277 282 283 290 291 303 294 302 301 297 267 256 295 268 254 310 312 308 309</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 291 59 272 296 283 265 313 288 255 297 294 301 298 268 302 295 256 267 314 303 258 290 254 274 282 262 292 263 310 270 289 275 259 312 276 273 308 261 280 281 309 249 287 277</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\platforms\Cortex-M3\crt0_EWARM.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 182</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 153</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 101 321</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 101 321</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\platforms\Cortex-M3\hardfault.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 167</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 262 296 299 258 255 254 264 96 261 298 44 260 112 259 288 284 297 271 95 290 257 269 266 101 111 311 293 270 314 310 33 294 302 301 94 32 102 285 97 93 115 66 59 273 280 281 272 263 275 276 265 313 256 312 308 99 274 268 54 286 279 278 304 306 300 305 98 109 92 105 106 114 291 249 287 277 282 283 303 295 267 292 289 309</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 290 255 297 294 301 298 268 302 254 274 99 94 271 101 102 44 95 288 299 266 279 264 285 257 304 300 306 269 305 278 260 286 54 32 284 293 66 291 59 272 296 283 265 313 295 256 267 314 303 258 282 262 292 263 310 270 289 275 259 312 276 273 308 261 280 281 309 249 287 277 33 112 98 97 109 111 92 93 105 96 106 115 114 311</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\EWARM\startup_stm32f103xb_bootloader_EWARM.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 193</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\library\utilities\AESUtils.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 176</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 146</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 255 320 43 290 95 56 299 268 297 102 94 45 285 254 288 266 279 278 274 264 257 269 260 271 49 294 302 301 298 304 306 300 305 101 44 286 319</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 56 95 288 255 297 294 301 298 268 302 299 266 254 290 274 279 264 285 257 304 300 306 269 305 278 260 94 271 101 102 44 286 45 43 320 319 49</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\library\utilities\StringUtils.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 183</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 152</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 297 300 288 254 260 304 94 95 268 255 266 102 307 294 302 301 298 279 278 306 305 271 55 299 290 285 274 264 257 269 101 44 286</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 55 95 288 255 297 294 301 298 268 302 299 266 254 290 274 279 264 285 257 304 300 306 269 305 278 260 94 271 101 102 44 286</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\library\utilities\URLUtils.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 185</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 148</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 285 271 264 268 260 95 55 299 290 297 255 274 257 269 266 94 46 288 279 278 254 102 294 302 301 298 304 306 300 305 101 44 286 307</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 95 288 255 297 294 301 298 268 302 299 266 254 290 274 279 264 285 257 304 300 306 269 305 278 260 94 271 101 102 44 286 55 46</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\platforms\EWARM\Retarget.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 172</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 288 292 268 301 98 297 286 255 106 254 33 249 303 32 294 302 284 92 266 101 287 282 296 283 295 289 298 95 109 105 114 279 278 274 264 257 269 260 94 44 291 277 290 267 256 316 102 112 97 111 93 96 115 311 299 285 304 306 300 305 293 66 271 59 273 261 280 281 272 262 263 270 275 259 276 258 265 313 314 310 312 308 309</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 266 255 297 294 301 298 268 302 254 316 101 102 32 95 288 299 290 274 279 264 285 257 304 300 306 269 305 278 260 284 293 94 271 44 286 66 291 59 272 296 283 265 313 295 256 267 314 303 258 282 262 292 263 310 270 289 275 259 312 276 273 308 261 280 281 309 249 287 277 33 112 98 97 109 111 92 93 105 96 106 115 114 311</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\EWARM\startup_stm32f103xe_bootloader_EWARM.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 195</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\kernel\RTOS\NoRTOS\rtos.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 184</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 156</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 270 314 296 290 304 297 310 299 268 300 254 102 44 285 255 293 94 261 262 259 258 288 284 266 279 278 306 305 66 101 286 59 273 280 281 272 263 275 276 265 313 256 312 308 309 95 294 302 301 298 274 264 257 269 260 33 271 291 249 287 277 282 283 303 295 267 292 289</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 95 288 255 297 294 301 298 268 302 299 266 254 290 274 279 264 285 257 304 300 306 269 305 278 260 284 293 94 271 101 102 44 286 66 291 59 272 296 283 265 313 295 256 267 314 303 258 282 262 292 263 310 270 289 275 259 312 276 273 308 261 280 281 309 249 287 277 33</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\library\utilities\SecurityUtils.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 177</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 154</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 255 278 268 297 279 95 288 266 306 305 299 290 285 294 302 301 298 254 257 304 300 45 274 264 269 260</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 45 95 288 255 297 294 301 298 268 302 299 266 254 290 274 279 264 285 257 304 300 306 269 305 278 260</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\library\utilities\RingBufferUtils.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 181</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 151</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 297 266 288 268 255 254 279 278 102 94 95 299 290 285 294 302 301 298 274 264 257 269 260 271 33 304 306 300 305 101 44 286</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 33 95 288 255 297 294 301 298 268 302 299 266 254 290 274 279 264 285 257 304 300 306 269 305 278 260 94 271 101 102 44 286</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\library\utilities\TLVUtils.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 168</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 149</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 297 255 288 268 266 254 95 279 278 102 94 299 290 285 294 302 301 298 274 264 257 269 260 271 37 304 306 300 305 101 44 286</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 37 95 288 255 297 294 301 298 268 302 299 266 254 290 274 279 264 285 257 304 300 306 269 305 278 260 94 271 101 102 44 286</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\library\utilities\CheckSumUtils.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 171</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 158</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 297 266 255 95 288 268 279 278 254 299 290 285 294 302 301 298 274 264 257 269 260 49 304 306 300 305</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 49 95 288 255 297 294 301 298 268 302 299 266 254 290 274 279 264 285 257 304 300 306 269 305 278 260</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_spi.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 223</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 140</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 296 280 263 276 313 289 59 273 281 272 275 265 298 261 262 270 259 258 288 314 255 274 292 249 287 277 282 283 290 291 303 294 302 301 297 267 256 295 268 254 310 312 308 309</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 291 59 272 296 283 265 313 288 255 297 294 301 298 268 302 295 256 267 314 303 258 290 254 274 282 262 292 263 310 270 289 275 259 312 276 273 308 261 280 281 309 249 287 277</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_sd.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 225</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 144</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 296 280 263 276 313 289 59 273 281 272 275 265 298 261 262 270 259 258 288 314 255 274 292 249 287 277 282 283 290 291 303 294 302 301 297 267 256 295 268 254 310 312 308 309</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 291 59 272 296 283 265 313 288 255 297 294 301 298 268 302 295 256 267 314 303 258 290 254 274 282 262 292 263 310 270 289 275 259 312 276 273 308 261 280 281 309 249 287 277</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 253</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 123</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 288 296 261 262 258 259 289 270 298 291 59 273 280 281 272 263 275 276 265 314 255 274 292 249 287 277 282 283 290 313 294 302 301 297 267 256 303 295 268 254 310 312 308 309</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 291 59 272 296 283 265 313 288 255 297 294 301 298 268 302 295 256 267 314 303 258 290 254 274 282 262 292 263 310 270 289 275 259 312 276 273 308 261 280 281 309 249 287 277</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\system_stm32f1xx.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 235</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 190</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 296 298 289 288 270 265 313 314 255 261 262 259 258 274 292 283 291 303 294 302 301 297 267 256 59 273 280 281 272 263 275 276 295 268 249 287 277 282 290 254 310 312 308 309</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 283 265 313 288 255 297 294 301 298 268 302 295 256 267 314 303 291 59 272 296 258 290 254 274 282 262 292 263 310 270 289 275 259 312 276 273 308 261 280 281 309 249 287 277</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_sdmmc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 231</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 198</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 296 280 263 276 313 289 59 273 281 272 275 265 298 261 262 270 259 258 288 314 255 274 292 249 287 277 282 283 290 291 303 294 302 301 297 267 256 295 268 254 310 312 308 309</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 291 59 272 296 283 265 313 288 255 297 294 301 298 268 302 295 256 267 314 303 258 290 254 274 282 262 292 263 310 270 289 275 259 312 276 273 308 261 280 281 309 249 287 277</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\platform_mcu_powersave.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 236</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 279 276 297 296 254 255 313 288 109 268 280 263 256 309 95 293 94 278 102 44 59 273 281 272 275 265 312 308 114 284 32 315 66 266 264 257 269 260 271 261 262 270 259 258 314 310 105 101 321 33 294 302 301 298 299 290 285 274 304 306 300 305 286 291 249 287 277 282 283 303 295 267 292 289 98 92 106 112 97 111 93 96 115 311</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 284 288 255 297 294 301 298 268 302 293 95 299 266 254 290 274 279 264 285 257 304 300 306 269 305 278 260 94 271 101 102 44 286 66 291 59 272 296 283 265 313 295 256 267 314 303 258 282 262 292 263 310 270 289 275 259 312 276 273 308 261 280 281 309 249 287 277 33 32 112 98 97 109 111 92 93 105 96 106 115 114 311 321 315</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\platform_init.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 240</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 203</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 266 288 277 257 293 268 255 33 297 269 296 101 321 264 260 271 95 290 291 267 256 284 102 279 315 66 294 302 301 94 278 254 249 287 282 283 303 295 292 289 298 299 285 274 304 306 300 305 44 286 59 273 261 280 281 272 262 263 270 275 259 276 258 265 313 314 310 312 308 309</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 284 288 255 297 294 301 298 268 302 293 95 299 266 254 290 274 279 264 285 257 304 300 306 269 305 278 260 94 271 101 102 44 286 66 291 59 272 296 283 265 313 295 256 267 314 303 258 282 262 292 263 310 270 289 275 259 312 276 273 308 261 280 281 309 249 287 277 33 321 315</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_usart.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 252</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 63</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 288 296 259 261 262 258 289 270 298 291 59 273 280 281 272 263 275 276 265 314 255 274 292 249 287 277 282 283 290 313 294 302 301 297 267 256 303 295 268 254 310 312 308 309</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 291 59 272 296 283 265 313 288 255 297 294 301 298 268 302 295 256 267 314 303 258 290 254 274 282 262 292 263 310 270 289 275 259 312 276 273 308 261 280 281 309 249 287 277</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_sram.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 251</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 119</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 296 280 263 276 313 289 59 273 281 272 275 265 298 261 262 270 259 258 288 314 255 274 292 249 287 277 282 283 290 291 303 294 302 301 297 267 256 295 268 254 310 312 308 309</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 291 59 272 296 283 265 313 288 255 297 294 301 298 268 302 295 256 267 314 303 258 290 254 274 282 262 292 263 310 270 289 275 259 312 276 273 308 261 280 281 309 249 287 277</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\platform_can.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 244</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 268 270 314 296 297 255 102 288 301 310 33 95 299 44 283 302 290 254 261 262 259 258 284 293 66 294 298 285 274 264 257 269 266 260 271 59 273 280 281 272 263 275 276 265 313 256 312 308 309 101 94 279 278 304 306 300 305 286 291 249 287 277 282 303 295 267 292 289</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 101 284 288 255 297 294 301 298 268 302 293 95 299 266 254 290 274 279 264 285 257 304 300 306 269 305 278 260 94 271 102 44 286 66 291 59 272 296 283 265 313 295 256 267 314 303 258 282 262 292 263 310 270 289 275 259 312 276 273 308 261 280 281 309 249 287 277 33</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_spi_ex.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 241</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 118</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 296 280 263 276 313 289 59 273 281 272 275 265 298 261 262 270 259 258 288 314 255 274 292 249 287 277 282 283 290 291 303 294 302 301 297 267 256 295 268 254 310 312 308 309</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 291 59 272 296 283 265 313 288 255 297 294 301 298 268 302 295 256 267 314 303 258 290 254 274 282 262 292 263 310 270 289 275 259 312 276 273 308 261 280 281 309 249 287 277</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_fsmc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 239</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 126</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 296 280 263 276 313 289 59 273 281 272 275 265 298 261 262 270 259 258 288 314 255 274 292 249 287 277 282 283 290 291 303 294 302 301 297 267 256 295 268 254 310 312 308 309</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 291 59 272 296 283 265 313 288 255 297 294 301 298 268 302 295 256 267 314 303 258 290 254 274 282 262 292 263 310 270 289 275 259 312 276 273 308 261 280 281 309 249 287 277</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_usb.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 232</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 189</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 296 280 263 276 313 289 59 273 281 272 275 265 298 261 262 270 259 258 288 314 255 274 292 249 287 277 282 283 290 291 303 294 302 301 297 267 256 295 268 254 310 312 308 309</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 291 59 272 296 283 265 313 288 255 297 294 301 298 268 302 295 256 267 314 303 258 290 254 274 282 262 292 263 310 270 289 275 259 312 276 273 308 261 280 281 309 249 287 277</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\platform_gpio.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 233</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 270 314 296 297 255 102 293 301 310 66 95 299 44 101 294 302 290 254 261 262 259 258 288 284 33 268 298 285 274 264 257 269 266 260 271 59 273 280 281 272 263 275 276 265 313 256 312 308 309 94 279 278 304 306 300 305 286 291 249 287 277 282 283 303 295 267 292 289</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 101 284 288 255 297 294 301 298 268 302 293 95 299 266 254 290 274 279 264 285 257 304 300 306 269 305 278 260 94 271 102 44 286 66 291 59 272 296 283 265 313 295 256 267 314 303 258 282 262 292 263 310 270 289 275 259 312 276 273 308 261 280 281 309 249 287 277 33</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\platform_uart.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 237</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 259 278 254 297 44 296 255 288 97 293 94 261 262 258 279 268 304 300 95 270 314 310 115 101 284 66 102 266 306 305 286 59 273 280 281 272 263 275 276 265 313 256 312 308 309 93 283 32 33 294 302 301 298 299 290 285 274 264 257 269 260 271 291 249 287 277 282 303 295 267 292 289 112 111 96 311 98 109 92 105 106 114</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 101 284 288 255 297 294 301 298 268 302 293 95 299 266 254 290 274 279 264 285 257 304 300 306 269 305 278 260 94 271 102 44 286 66 291 59 272 296 283 265 313 295 256 267 314 303 258 282 262 292 263 310 270 289 275 259 312 276 273 308 261 280 281 309 249 287 277 33 32 112 98 97 109 111 92 93 105 96 106 115 114 311</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\platform_watchdog.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 238</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 197</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 270 314 296 268 304 299 297 310 283 290 300 254 102 44 101 285 255 293 94 261 262 259 258 288 284 266 279 278 306 305 286 66 59 273 280 281 272 263 275 276 265 313 256 312 308 309 95 294 302 301 298 274 264 257 269 260 271 33 291 249 287 277 282 303 295 267 292 289</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 95 288 255 297 294 301 298 268 302 299 266 254 290 274 279 264 285 257 304 300 306 269 305 278 260 94 271 101 102 44 286 284 293 66 291 59 272 296 283 265 313 295 256 267 314 303 258 282 262 292 263 310 270 289 275 259 312 276 273 308 261 280 281 309 249 287 277 33</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\platforms\MCUs\mico_platform_common.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 245</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 268 297 255 296 254 33 111 301 279 286 290 291 267 256 101 293 294 302 278 277 95 311 284 102 298 288 266 257 269 260 94 44 249 287 282 283 303 295 292 289 112 96 32 317 264 299 285 274 304 306 300 305 66 271 59 273 261 280 281 272 262 263 270 275 259 276 258 265 313 314 310 312 308 309 97 93 115 98 109 92 105 106 114</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 288 255 297 294 301 298 268 302 279 254 264 95 299 266 290 274 285 257 304 300 306 269 305 278 260 284 293 94 271 101 102 44 286 66 291 59 272 296 283 265 313 295 256 267 314 303 258 282 262 292 263 310 270 289 275 259 312 276 273 308 261 280 281 309 249 287 277 33 32 112 98 97 109 111 92 93 105 96 106 115 114 311 317</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 230</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 121</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 288 296 291 275 265 59 281 273 272 289 280 263 276 298 261 262 270 259 258 314 255 274 292 249 287 277 282 283 290 313 294 302 301 297 267 256 303 295 268 254 310 312 308 309</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 291 59 272 296 283 265 313 288 255 297 294 301 298 268 302 295 256 267 314 303 258 290 254 274 282 262 292 263 310 270 289 275 259 312 276 273 308 261 280 281 309 249 287 277</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\platform_flash.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 247</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 202</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 270 314 296 94 33 310 288 278 255 254 297 44 279 268 304 300 261 262 259 258 284 293 66 102 266 306 305 101 286 59 273 280 281 272 263 275 276 265 313 256 312 308 309 95 294 302 301 298 299 290 285 274 264 257 269 260 271 291 249 287 277 282 283 303 295 267 292 289</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 284 288 255 297 294 301 298 268 302 293 95 299 266 254 290 274 279 264 285 257 304 300 306 269 305 278 260 94 271 101 102 44 286 66 291 59 272 296 283 265 313 295 256 267 314 303 258 282 262 292 263 310 270 289 275 259 312 276 273 308 261 280 281 309 249 287 277 33</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_wwdg.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 242</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 64</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 296 273 272 59 281 275 265 289 291 280 263 276 313 298 261 262 270 259 258 288 314 255 274 292 249 287 277 282 283 290 303 294 302 301 297 267 256 295 268 254 310 312 308 309</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 291 59 272 296 283 265 313 288 255 297 294 301 298 268 302 295 256 267 314 303 258 290 254 274 282 262 292 263 310 270 289 275 259 312 276 273 308 261 280 281 309 249 287 277</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_smartcard.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 234</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 145</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 296 280 263 276 313 289 59 273 281 272 275 265 298 261 262 270 259 258 288 314 255 274 292 249 287 277 282 283 290 291 303 294 302 301 297 267 256 295 268 254 310 312 308 309</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 291 59 272 296 283 265 313 288 255 297 294 301 298 268 302 295 256 267 314 303 258 290 254 274 282 262 292 263 310 270 289 275 259 312 276 273 308 261 280 281 309 249 287 277</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\platforms\MCUs\STM32F1xx\peripherals\libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 250</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 122</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 288 296 287 282 283 289 249 298 277 290 291 314 255 274 292 59 273 261 280 281 272 262 263 270 275 259 276 258 265 313 294 302 301 297 267 256 303 295 268 254 310 312 308 309</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 291 59 272 296 283 265 313 288 255 297 294 301 298 268 302 295 256 267 314 303 258 290 254 274 282 262 292 263 310 270 289 275 259 312 276 273 308 261 280 281 309 249 287 277</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 243</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\board\PowerBoard\platform.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 205</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 255 249 32 254 301 95 299 297 303 97 290 66 286 292 101 294 302 288 102 306 305 33 287 282 296 283 295 289 115 284 298 293 285 304 300 44 291 277 267 256 93 279 274 268 264 94 266 278 257 269 260 271 59 273 261 280 281 272 262 263 270 275 259 276 258 265 313 314 310 312 308 309 112 111 96 311 98 109 92 105 106 114</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 290 255 297 294 301 298 268 302 254 274 279 264 101 102 284 288 293 95 299 266 285 257 304 300 306 269 305 278 260 94 271 44 286 66 291 59 272 296 283 265 313 295 256 267 314 303 258 282 262 292 263 310 270 289 275 259 312 276 273 308 261 280 281 309 249 287 277 33 32 112 98 97 109 111 92 93 105 96 106 115 114 311</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\bootloader\Getline.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 187</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 254 298 300 95 97 32 33 296 255 288 297 304 271 115 290 291 267 256 266 94 93 277 101 99 294 302 301 279 278 268 306 305 44 102 112 111 96 311 249 287 282 283 303 295 292 289 274 299 285 264 257 269 260 54 286 284 98 109 92 105 106 114 293 66 59 273 261 280 281 272 262 263 270 275 259 276 258 265 313 314 310 312 308 309</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 290 255 297 294 301 298 268 302 254 274 95 288 299 266 279 264 285 257 304 300 306 269 305 278 260 99 94 271 101 102 44 286 54 32 284 293 66 291 59 272 296 283 265 313 295 256 267 314 303 258 282 262 292 263 310 270 289 275 259 312 276 273 308 261 280 281 309 249 287 277 33 112 98 97 109 111 92 93 105 96 106 115 114 311</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\bootloader\ymodem.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 192</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 115 256 255 297 32 280 254 263 296 309 284 97 288 102 95 276 313 99 94 285 268 93 66 44 59 273 281 272 275 265 312 308 33 101 279 271 299 290 264 257 269 266 260 112 111 96 311 293 261 262 270 259 258 314 310 307 322 55 49 54 286 278 294 302 301 298 274 304 306 300 305 98 109 92 105 106 114 291 249 287 277 282 283 303 295 267 292 289</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 99 94 271 101 102 44 95 288 255 297 294 301 298 268 302 299 266 254 290 274 279 264 285 257 304 300 306 269 305 278 260 286 54 32 284 293 66 291 59 272 296 283 265 313 295 256 267 314 303 258 282 262 292 263 310 270 289 275 259 312 276 273 308 261 280 281 309 249 287 277 33 112 98 97 109 111 92 93 105 96 106 115 114 311 322 55 49</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\bootloader\BootloaderEntrance.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 196</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 295 287 264 96 283 296 44 282 289 288 298 260 112 33 101 317 54 266 255 297 274 257 269 111 311 94 249 303 292 95 318 271 286 279 278 294 302 301 254 97 93 115 291 277 290 267 256 102 32 299 285 268 304 306 300 305 284 98 109 92 105 106 114 293 66 59 273 261 280 281 272 262 263 270 275 259 276 258 265 313 314 310 312 308 309 99</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 99 94 271 101 102 44 95 288 255 297 294 301 298 268 302 299 266 254 290 274 279 264 285 257 304 300 306 269 305 278 260 286 54 32 284 293 66 291 59 272 296 283 265 313 295 256 267 314 303 258 282 262 292 263 310 270 289 275 259 312 276 273 308 261 280 281 309 249 287 277 33 112 98 97 109 111 92 93 105 96 106 115 114 311 318 317</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\bootloader\menu.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 200</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 288 33 298 300 254 101 55 95 44 264 304 297 105 287 282 296 283 295 289 307 99 271 266 255 274 109 114 94 249 303 292 102 285 54 286 279 278 294 302 301 306 305 284 98 92 106 291 277 290 267 256 322 318 317 32 299 268 257 269 260 112 97 111 93 96 115 311 293 66 59 273 261 280 281 272 262 263 270 275 259 276 258 265 313 314 310 312 308 309</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 99 94 271 101 102 44 95 288 255 297 294 301 298 268 302 299 266 254 290 274 279 264 285 257 304 300 306 269 305 278 260 286 54 32 284 293 66 291 59 272 296 283 265 313 295 256 267 314 303 258 282 262 292 263 310 270 289 275 259 312 276 273 308 261 280 281 309 249 287 277 33 112 98 97 109 111 92 93 105 96 106 115 114 311 322 318 55 317</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\board\PowerBoard_V2\platform.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 205</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\bootloader\Update_for_OTA.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 186</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 302 254 277 271 297 291 101 279 255 294 93 296 102 95 286 278 301 97 115 33 290 267 256 99 54 44 288 266 298 274 264 257 269 260 112 111 96 311 94 249 287 282 283 303 295 292 289 284 49 32 299 285 268 304 306 300 305 98 109 92 105 106 114 293 66 59 273 261 280 281 272 262 263 270 275 259 276 258 265 313 314 310 312 308 309</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 99 94 271 101 102 44 95 288 255 297 294 301 298 268 302 299 266 254 290 274 279 264 285 257 304 300 306 269 305 278 260 286 54 32 284 293 66 291 59 272 296 283 265 313 295 256 267 314 303 258 282 262 292 263 310 270 289 275 259 312 276 273 308 261 280 281 309 249 287 277 33 112 98 97 109 111 92 93 105 96 106 115 114 311 49</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\build\Powerboard\bootloader\Output\bootloader.out</name>
+      <outputs>
+        <tool>
+          <name>OBJCOPY</name>
+          <file> 248</file>
+        </tool>
+      </outputs>
+    </file>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+  <configuration>
+    <name>POWERBOARD_STM32F103RB</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+  <configuration>
+    <name>POWERBOARD_STM32F103ZE</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+

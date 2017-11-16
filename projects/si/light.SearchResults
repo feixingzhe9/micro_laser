@@ -1,0 +1,3 @@
+---- GPIOout Matches (3 in 1 files) ----
+Serial_leds.h (application\platform):#define GPIOout(GPIOx,bit)				MEM_ADDR(BITBAND((uint32_t)(&GPIOx->ODR), bit))
+Serial_leds.h (application\platform):#define LED		GPIOout(GPIOC, 6)//GPIOout(GPIOB, 12)

@@ -1,0 +1,1031 @@
+###############################################################################
+#
+# IAR ELF Linker V7.40.7.9843/W32 for ARM                 15/Nov/2017  21:28:26
+# Copyright 2007-2015 IAR Systems AB.
+#
+#    Output file  =  
+#        C:\Users\admin\Desktop\EVT2-IAR\NOAH_LIGHT_Update\build\PowerBoard_V2\Output\PowerBoard_Application.out
+#    Map file     =  
+#        C:\Users\admin\Desktop\EVT2-IAR\NOAH_LIGHT_Update\projects\light\application\EWARM\..\..\..\..\build\PowerBoard_V2\application\list_RVMDK\PowerBoard_Application.map
+#    Command line =  
+#        C:\Users\admin\Desktop\EVT2-IAR\NOAH_LIGHT_Update\build\PowerBoard_V2\application\obj_RVMDK\AESUtils.o
+#        C:\Users\admin\Desktop\EVT2-IAR\NOAH_LIGHT_Update\build\PowerBoard_V2\application\obj_RVMDK\app_platform.o
+#        C:\Users\admin\Desktop\EVT2-IAR\NOAH_LIGHT_Update\build\PowerBoard_V2\application\obj_RVMDK\application.o
+#        C:\Users\admin\Desktop\EVT2-IAR\NOAH_LIGHT_Update\build\PowerBoard_V2\application\obj_RVMDK\board_init.o
+#        C:\Users\admin\Desktop\EVT2-IAR\NOAH_LIGHT_Update\build\PowerBoard_V2\application\obj_RVMDK\can_protocol.o
+#        C:\Users\admin\Desktop\EVT2-IAR\NOAH_LIGHT_Update\build\PowerBoard_V2\application\obj_RVMDK\CheckSumUtils.o
+#        C:\Users\admin\Desktop\EVT2-IAR\NOAH_LIGHT_Update\build\PowerBoard_V2\application\obj_RVMDK\crt0_EWARM.o
+#        C:\Users\admin\Desktop\EVT2-IAR\NOAH_LIGHT_Update\build\PowerBoard_V2\application\obj_RVMDK\fifo.o
+#        C:\Users\admin\Desktop\EVT2-IAR\NOAH_LIGHT_Update\build\PowerBoard_V2\application\obj_RVMDK\Getline.o
+#        C:\Users\admin\Desktop\EVT2-IAR\NOAH_LIGHT_Update\build\PowerBoard_V2\application\obj_RVMDK\global.o
+#        C:\Users\admin\Desktop\EVT2-IAR\NOAH_LIGHT_Update\build\PowerBoard_V2\application\obj_RVMDK\hardfault.o
+#        C:\Users\admin\Desktop\EVT2-IAR\NOAH_LIGHT_Update\build\PowerBoard_V2\application\obj_RVMDK\i2c.o
+#        C:\Users\admin\Desktop\EVT2-IAR\NOAH_LIGHT_Update\build\PowerBoard_V2\application\obj_RVMDK\LibMd5.o
+#        C:\Users\admin\Desktop\EVT2-IAR\NOAH_LIGHT_Update\build\PowerBoard_V2\application\obj_RVMDK\mico_platform_common.o
+#        C:\Users\admin\Desktop\EVT2-IAR\NOAH_LIGHT_Update\build\PowerBoard_V2\application\obj_RVMDK\platform.o
+#        C:\Users\admin\Desktop\EVT2-IAR\NOAH_LIGHT_Update\build\PowerBoard_V2\application\obj_RVMDK\platform_can.o
+#        C:\Users\admin\Desktop\EVT2-IAR\NOAH_LIGHT_Update\build\PowerBoard_V2\application\obj_RVMDK\platform_flash.o
+#        C:\Users\admin\Desktop\EVT2-IAR\NOAH_LIGHT_Update\build\PowerBoard_V2\application\obj_RVMDK\platform_gpio.o
+#        C:\Users\admin\Desktop\EVT2-IAR\NOAH_LIGHT_Update\build\PowerBoard_V2\application\obj_RVMDK\platform_init.o
+#        C:\Users\admin\Desktop\EVT2-IAR\NOAH_LIGHT_Update\build\PowerBoard_V2\application\obj_RVMDK\platform_mcu_powersave.o
+#        C:\Users\admin\Desktop\EVT2-IAR\NOAH_LIGHT_Update\build\PowerBoard_V2\application\obj_RVMDK\platform_tim.o
+#        C:\Users\admin\Desktop\EVT2-IAR\NOAH_LIGHT_Update\build\PowerBoard_V2\application\obj_RVMDK\platform_uart.o
+#        C:\Users\admin\Desktop\EVT2-IAR\NOAH_LIGHT_Update\build\PowerBoard_V2\application\obj_RVMDK\platform_watchdog.o
+#        C:\Users\admin\Desktop\EVT2-IAR\NOAH_LIGHT_Update\build\PowerBoard_V2\application\obj_RVMDK\Retarget.o
+#        C:\Users\admin\Desktop\EVT2-IAR\NOAH_LIGHT_Update\build\PowerBoard_V2\application\obj_RVMDK\RingBufferUtils.o
+#        C:\Users\admin\Desktop\EVT2-IAR\NOAH_LIGHT_Update\build\PowerBoard_V2\application\obj_RVMDK\rtos.o
+#        C:\Users\admin\Desktop\EVT2-IAR\NOAH_LIGHT_Update\build\PowerBoard_V2\application\obj_RVMDK\SecurityUtils.o
+#        C:\Users\admin\Desktop\EVT2-IAR\NOAH_LIGHT_Update\build\PowerBoard_V2\application\obj_RVMDK\serial_uart.o
+#        C:\Users\admin\Desktop\EVT2-IAR\NOAH_LIGHT_Update\build\PowerBoard_V2\application\obj_RVMDK\startup_stm32f103xe_application_EWARM.o
+#        C:\Users\admin\Desktop\EVT2-IAR\NOAH_LIGHT_Update\build\PowerBoard_V2\application\obj_RVMDK\stm32f1xx_hal.o
+#        C:\Users\admin\Desktop\EVT2-IAR\NOAH_LIGHT_Update\build\PowerBoard_V2\application\obj_RVMDK\stm32f1xx_hal_adc.o
+#        C:\Users\admin\Desktop\EVT2-IAR\NOAH_LIGHT_Update\build\PowerBoard_V2\application\obj_RVMDK\stm32f1xx_hal_adc_ex.o
+#        C:\Users\admin\Desktop\EVT2-IAR\NOAH_LIGHT_Update\build\PowerBoard_V2\application\obj_RVMDK\stm32f1xx_hal_can.o
+#        C:\Users\admin\Desktop\EVT2-IAR\NOAH_LIGHT_Update\build\PowerBoard_V2\application\obj_RVMDK\stm32f1xx_hal_cec.o
+#        C:\Users\admin\Desktop\EVT2-IAR\NOAH_LIGHT_Update\build\PowerBoard_V2\application\obj_RVMDK\stm32f1xx_hal_cortex.o
+#        C:\Users\admin\Desktop\EVT2-IAR\NOAH_LIGHT_Update\build\PowerBoard_V2\application\obj_RVMDK\stm32f1xx_hal_crc.o
+#        C:\Users\admin\Desktop\EVT2-IAR\NOAH_LIGHT_Update\build\PowerBoard_V2\application\obj_RVMDK\stm32f1xx_hal_dac.o
+#        C:\Users\admin\Desktop\EVT2-IAR\NOAH_LIGHT_Update\build\PowerBoard_V2\application\obj_RVMDK\stm32f1xx_hal_dac_ex.o
+#        C:\Users\admin\Desktop\EVT2-IAR\NOAH_LIGHT_Update\build\PowerBoard_V2\application\obj_RVMDK\stm32f1xx_hal_dma.o
+#        C:\Users\admin\Desktop\EVT2-IAR\NOAH_LIGHT_Update\build\PowerBoard_V2\application\obj_RVMDK\stm32f1xx_hal_eth.o
+#        C:\Users\admin\Desktop\EVT2-IAR\NOAH_LIGHT_Update\build\PowerBoard_V2\application\obj_RVMDK\stm32f1xx_hal_flash.o
+#        C:\Users\admin\Desktop\EVT2-IAR\NOAH_LIGHT_Update\build\PowerBoard_V2\application\obj_RVMDK\stm32f1xx_hal_flash_ex.o
+#        C:\Users\admin\Desktop\EVT2-IAR\NOAH_LIGHT_Update\build\PowerBoard_V2\application\obj_RVMDK\stm32f1xx_hal_gpio.o
+#        C:\Users\admin\Desktop\EVT2-IAR\NOAH_LIGHT_Update\build\PowerBoard_V2\application\obj_RVMDK\stm32f1xx_hal_gpio_ex.o
+#        C:\Users\admin\Desktop\EVT2-IAR\NOAH_LIGHT_Update\build\PowerBoard_V2\application\obj_RVMDK\stm32f1xx_hal_hcd.o
+#        C:\Users\admin\Desktop\EVT2-IAR\NOAH_LIGHT_Update\build\PowerBoard_V2\application\obj_RVMDK\stm32f1xx_hal_i2c.o
+#        C:\Users\admin\Desktop\EVT2-IAR\NOAH_LIGHT_Update\build\PowerBoard_V2\application\obj_RVMDK\stm32f1xx_hal_i2s.o
+#        C:\Users\admin\Desktop\EVT2-IAR\NOAH_LIGHT_Update\build\PowerBoard_V2\application\obj_RVMDK\stm32f1xx_hal_irda.o
+#        C:\Users\admin\Desktop\EVT2-IAR\NOAH_LIGHT_Update\build\PowerBoard_V2\application\obj_RVMDK\stm32f1xx_hal_iwdg.o
+#        C:\Users\admin\Desktop\EVT2-IAR\NOAH_LIGHT_Update\build\PowerBoard_V2\application\obj_RVMDK\stm32f1xx_hal_msp_template.o
+#        C:\Users\admin\Desktop\EVT2-IAR\NOAH_LIGHT_Update\build\PowerBoard_V2\application\obj_RVMDK\stm32f1xx_hal_nand.o
+#        C:\Users\admin\Desktop\EVT2-IAR\NOAH_LIGHT_Update\build\PowerBoard_V2\application\obj_RVMDK\stm32f1xx_hal_nor.o
+#        C:\Users\admin\Desktop\EVT2-IAR\NOAH_LIGHT_Update\build\PowerBoard_V2\application\obj_RVMDK\stm32f1xx_hal_pccard.o
+#        C:\Users\admin\Desktop\EVT2-IAR\NOAH_LIGHT_Update\build\PowerBoard_V2\application\obj_RVMDK\stm32f1xx_hal_pcd.o
+#        C:\Users\admin\Desktop\EVT2-IAR\NOAH_LIGHT_Update\build\PowerBoard_V2\application\obj_RVMDK\stm32f1xx_hal_pcd_ex.o
+#        C:\Users\admin\Desktop\EVT2-IAR\NOAH_LIGHT_Update\build\PowerBoard_V2\application\obj_RVMDK\stm32f1xx_hal_pwr.o
+#        C:\Users\admin\Desktop\EVT2-IAR\NOAH_LIGHT_Update\build\PowerBoard_V2\application\obj_RVMDK\stm32f1xx_hal_rcc.o
+#        C:\Users\admin\Desktop\EVT2-IAR\NOAH_LIGHT_Update\build\PowerBoard_V2\application\obj_RVMDK\stm32f1xx_hal_rcc_ex.o
+#        C:\Users\admin\Desktop\EVT2-IAR\NOAH_LIGHT_Update\build\PowerBoard_V2\application\obj_RVMDK\stm32f1xx_hal_rtc.o
+#        C:\Users\admin\Desktop\EVT2-IAR\NOAH_LIGHT_Update\build\PowerBoard_V2\application\obj_RVMDK\stm32f1xx_hal_rtc_ex.o
+#        C:\Users\admin\Desktop\EVT2-IAR\NOAH_LIGHT_Update\build\PowerBoard_V2\application\obj_RVMDK\stm32f1xx_hal_sd.o
+#        C:\Users\admin\Desktop\EVT2-IAR\NOAH_LIGHT_Update\build\PowerBoard_V2\application\obj_RVMDK\stm32f1xx_hal_smartcard.o
+#        C:\Users\admin\Desktop\EVT2-IAR\NOAH_LIGHT_Update\build\PowerBoard_V2\application\obj_RVMDK\stm32f1xx_hal_spi.o
+#        C:\Users\admin\Desktop\EVT2-IAR\NOAH_LIGHT_Update\build\PowerBoard_V2\application\obj_RVMDK\stm32f1xx_hal_spi_ex.o
+#        C:\Users\admin\Desktop\EVT2-IAR\NOAH_LIGHT_Update\build\PowerBoard_V2\application\obj_RVMDK\stm32f1xx_hal_sram.o
+#        C:\Users\admin\Desktop\EVT2-IAR\NOAH_LIGHT_Update\build\PowerBoard_V2\application\obj_RVMDK\stm32f1xx_hal_tim.o
+#        C:\Users\admin\Desktop\EVT2-IAR\NOAH_LIGHT_Update\build\PowerBoard_V2\application\obj_RVMDK\stm32f1xx_hal_tim_ex.o
+#        C:\Users\admin\Desktop\EVT2-IAR\NOAH_LIGHT_Update\build\PowerBoard_V2\application\obj_RVMDK\stm32f1xx_hal_uart.o
+#        C:\Users\admin\Desktop\EVT2-IAR\NOAH_LIGHT_Update\build\PowerBoard_V2\application\obj_RVMDK\stm32f1xx_hal_usart.o
+#        C:\Users\admin\Desktop\EVT2-IAR\NOAH_LIGHT_Update\build\PowerBoard_V2\application\obj_RVMDK\stm32f1xx_hal_wwdg.o
+#        C:\Users\admin\Desktop\EVT2-IAR\NOAH_LIGHT_Update\build\PowerBoard_V2\application\obj_RVMDK\stm32f1xx_ll_fsmc.o
+#        C:\Users\admin\Desktop\EVT2-IAR\NOAH_LIGHT_Update\build\PowerBoard_V2\application\obj_RVMDK\stm32f1xx_ll_sdmmc.o
+#        C:\Users\admin\Desktop\EVT2-IAR\NOAH_LIGHT_Update\build\PowerBoard_V2\application\obj_RVMDK\stm32f1xx_ll_usb.o
+#        C:\Users\admin\Desktop\EVT2-IAR\NOAH_LIGHT_Update\build\PowerBoard_V2\application\obj_RVMDK\StringUtils.o
+#        C:\Users\admin\Desktop\EVT2-IAR\NOAH_LIGHT_Update\build\PowerBoard_V2\application\obj_RVMDK\system_stm32f1xx.o
+#        C:\Users\admin\Desktop\EVT2-IAR\NOAH_LIGHT_Update\build\PowerBoard_V2\application\obj_RVMDK\TLVUtils.o
+#        C:\Users\admin\Desktop\EVT2-IAR\NOAH_LIGHT_Update\build\PowerBoard_V2\application\obj_RVMDK\Update_for_OTA.o
+#        C:\Users\admin\Desktop\EVT2-IAR\NOAH_LIGHT_Update\build\PowerBoard_V2\application\obj_RVMDK\upgrade_flash.o
+#        C:\Users\admin\Desktop\EVT2-IAR\NOAH_LIGHT_Update\build\PowerBoard_V2\application\obj_RVMDK\URLUtils.o
+#        C:\Users\admin\Desktop\EVT2-IAR\NOAH_LIGHT_Update\build\PowerBoard_V2\application\obj_RVMDK\VL53L0.o
+#        C:\Users\admin\Desktop\EVT2-IAR\NOAH_LIGHT_Update\build\PowerBoard_V2\application\obj_RVMDK\vl53l0x_api.o
+#        C:\Users\admin\Desktop\EVT2-IAR\NOAH_LIGHT_Update\build\PowerBoard_V2\application\obj_RVMDK\vl53l0x_api_calibration.o
+#        C:\Users\admin\Desktop\EVT2-IAR\NOAH_LIGHT_Update\build\PowerBoard_V2\application\obj_RVMDK\vl53l0x_api_core.o
+#        C:\Users\admin\Desktop\EVT2-IAR\NOAH_LIGHT_Update\build\PowerBoard_V2\application\obj_RVMDK\vl53l0x_api_strings.o
+#        C:\Users\admin\Desktop\EVT2-IAR\NOAH_LIGHT_Update\build\PowerBoard_V2\application\obj_RVMDK\vl53l0x_platform.o
+#        -o
+#        C:\Users\admin\Desktop\EVT2-IAR\NOAH_LIGHT_Update\build\PowerBoard_V2\Output\PowerBoard_Application.out
+#        --map
+#        C:\Users\admin\Desktop\EVT2-IAR\NOAH_LIGHT_Update\projects\light\application\EWARM\..\..\..\..\build\PowerBoard_V2\application\list_RVMDK\PowerBoard_Application.map
+#        --config
+#        C:\Users\admin\Desktop\EVT2-IAR\NOAH_LIGHT_Update\projects\light\application\EWARM\..\..\..\..\board\Ultrasonic\applicationLinkerForIAR.icf
+#        --semihosting --entry __iar_program_start --vfe
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__Heap_Handler  = DLMalloc
+__SystemLibrary = DLib
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A1":  place at 0x08000000 { ro section .intvec };
+"P1":  place in [from 0x08000000 to 0x0800ffff] { ro };
+"P2":  place in [from 0x20000000 to 0x20004fff] { rw, block CSTACK, block HEAP };
+
+  Section            Kind        Address    Size  Object
+  -------            ----        -------    ----  ------
+"A1":                                       0xec
+  .intvec                     0x08000000    0xec  <Block>
+    .intvec          ro code  0x08000000    0xec  startup_stm32f103xe_application_EWARM.o [1]
+                            - 0x080000ec    0xec
+
+"P1":                                     0xdab8
+  .text              ro code  0x080000ec  0x1c32  vl53l0x_api_core.o [1]
+  .text              ro code  0x08001d1e     0xa  xsprout.o [3]
+  .text              ro code  0x08001d28  0x12ce  vl53l0x_api.o [1]
+  .text              ro code  0x08002ff6    0x5a  vl53l0x_platform.o [1]
+  .text              ro code  0x08003050   0x654  i2c.o [1]
+  .text              ro code  0x080036a4    0x44  strcpy_unaligned.o [4]
+  .text              ro code  0x080036e8   0x978  vl53l0x_api_calibration.o [1]
+  .text              ro code  0x08004060     0x8  abs.o [3]
+  .text              ro code  0x08004068    0x76  ABImemcpy_unaligned.o [4]
+  .rodata            const    0x080040de     0x2  stm32f1xx_hal_rcc.o [1]
+  .text              ro code  0x080040e0     0x6  ABImemclr4.o [4]
+  .text              ro code  0x080040e8   0x5a8  mico_platform_common.o [1]
+  .text              ro code  0x08004690    0x32  ABImemset48.o [4]
+  .text              ro code  0x080046c4   0x318  platform_gpio.o [1]
+  .text              ro code  0x080049dc   0x798  platform_uart.o [1]
+  .text              ro code  0x08005174    0x24  rtos.o [1]
+  .text              ro code  0x08005198    0x10  URLUtils.o [1]
+  .text              ro code  0x080051a8    0x24  printf.o [3]
+  .text              ro code  0x080051cc   0x762  platform_flash.o [1]
+  .text              ro code  0x08005930   0x298  platform_can.o [1]
+  .text              ro code  0x08005bc8    0x10  platform_mcu_powersave.o [1]
+  .text              ro code  0x08005bd8   0x2fc  stm32f1xx_hal_gpio.o [1]
+  .text              ro code  0x08005ed4    0x66  ABImemset.o [4]
+  .text              ro code  0x08005f3c   0x36c  stm32f1xx_hal_uart.o [1]
+  .text              ro code  0x080062a8    0x58  stm32f1xx_hal_dma.o [1]
+  .text              ro code  0x08006300    0x28  RingBufferUtils.o [1]
+  .text              ro code  0x08006328    0x18  strrchr.o [3]
+  .text              ro code  0x08006340   0x4d8  xprintfsmall_nomb.o [3]
+  .text              ro code  0x08006818   0x1b8  stm32f1xx_hal_flash.o [1]
+  .text              ro code  0x080069d0   0x114  stm32f1xx_hal_flash_ex.o [1]
+  .text              ro code  0x08006ae4    0x58  stm32f1xx_hal.o [1]
+  .text              ro code  0x08006b3c   0x844  stm32f1xx_hal_can.o [1]
+  .text              ro code  0x08007380    0xe0  fifo.o [1]
+  .text              ro code  0x08007460   0xc80  stm32f1xx_hal_rcc.o [1]
+  .text              ro code  0x080080e0    0x16  strchr.o [4]
+  .text              ro code  0x080080f8    0x36  strlen.o [4]
+  .text              ro code  0x08008130    0x58  memchr.o [4]
+  .text              ro code  0x08008188    0x1e  U64Shr.o [4]
+  .text              ro code  0x080081a8   0x118  stm32f1xx_hal_cortex.o [1]
+  .text              ro code  0x080082c0   0x1ec  platform_init.o [1]
+  .text              ro code  0x080084ac     0x2  stm32f1xx_hal_msp_template.o [1]
+  .text              ro code  0x080084b0    0x24  stm32f1xx_hal_pwr.o [1]
+  .text              ro code  0x080084d4   0x156  platform.o [1]
+  .text              ro code  0x0800862c    0x10  platform_watchdog.o [1]
+  .text              ro code  0x0800863c  0x14f0  dlmalloc.o [3]
+  .text              ro code  0x08009b2c     0x6  abort.o [3]
+  .text              ro code  0x08009b34    0x2c  xgetmemchunk.o [3]
+  .text              ro code  0x08009b60    0x14  exit.o [5]
+  .text              ro code  0x08009b74   0xdf8  can_protocol.o [1]
+  .text              ro code  0x0800a96c   0x5e4  upgrade_flash.o [1]
+  .text              ro code  0x0800af50   0xc82  LibMd5.o [1]
+  .text              ro code  0x0800bbd4    0x62  memcmp_unaligned.o [4]
+  .text              ro code  0x0800bc38    0xa0  StringUtils.o [1]
+  .text              ro code  0x0800bcd8    0x34  sprintf.o [3]
+  .text              ro code  0x0800bd0c   0x48c  VL53L0.o [1]
+  .text              ro code  0x0800c198   0x28c  hardfault.o [1]
+  .text              ro code  0x0800c424   0x150  application.o [1]
+  .text              ro code  0x0800c574    0x84  app_platform.o [1]
+  .text              ro code  0x0800c5f8    0x58  board_init.o [1]
+  .rodata            const    0x0800c650   0x100  platform.o [1]
+  .rodata            const    0x0800c750    0x78  platform.o [1]
+  .rodata            const    0x0800c7c8    0x6c  platform_flash.o [1]
+  .rodata            const    0x0800c834    0x68  platform_flash.o [1]
+  .rodata            const    0x0800c89c    0x64  platform.o [1]
+  .rodata            const    0x0800c900    0x58  app_platform.o [1]
+  .rodata            const    0x0800c958    0x58  can_protocol.o [1]
+  .rodata            const    0x0800c9b0    0x58  mico_platform_common.o [1]
+  .rodata            const    0x0800ca08    0x58  upgrade_flash.o [1]
+  .rodata            const    0x0800ca60    0x54  StringUtils.o [1]
+  .rodata            const    0x0800cab4    0x50  can_protocol.o [1]
+  .rodata            const    0x0800cb04    0x50  platform_flash.o [1]
+  .rodata            const    0x0800cb54    0x50  platform_flash.o [1]
+  .rodata            const    0x0800cba4    0x4c  application.o [1]
+  .text              ro code  0x0800cbf0    0x40  zero_init3.o [4]
+  .rodata            const    0x0800cc30    0x3c  app_platform.o [1]
+  .rodata            const    0x0800cc6c    0x3c  StringUtils.o [1]
+  .rodata            const    0x0800cca8    0x38  can_protocol.o [1]
+  .rodata            const    0x0800cce0    0x38  can_protocol.o [1]
+  .rodata            const    0x0800cd18    0x38  upgrade_flash.o [1]
+  .rodata            const    0x0800cd50    0x38  upgrade_flash.o [1]
+  .rodata            const    0x0800cd88    0x38  VL53L0.o [1]
+  .rodata            const    0x0800cdc0    0x34  hardfault.o [1]
+  .rodata            const    0x0800cdf4    0x34  platform_flash.o [1]
+  .rodata            const    0x0800ce28    0x34  platform_flash.o [1]
+  .rodata            const    0x0800ce5c    0x34  platform_flash.o [1]
+  .rodata            const    0x0800ce90    0x34  upgrade_flash.o [1]
+  .rodata            const    0x0800cec4    0x30  can_protocol.o [1]
+  .rodata            const    0x0800cef4    0x30  hardfault.o [1]
+  .rodata            const    0x0800cf24    0x2c  app_platform.o [1]
+  .rodata            const    0x0800cf50    0x2c  can_protocol.o [1]
+  .rodata            const    0x0800cf7c    0x2c  upgrade_flash.o [1]
+  .rodata            const    0x0800cfa8    0x2c  VL53L0.o [1]
+  .text              ro code  0x0800cfd4    0x2c  copy_init3.o [4]
+  .rodata            const    0x0800d000    0x28  application.o [1]
+  .rodata            const    0x0800d028    0x28  can_protocol.o [1]
+  .rodata            const    0x0800d050    0x28  can_protocol.o [1]
+  .rodata            const    0x0800d078    0x28  can_protocol.o [1]
+  .rodata            const    0x0800d0a0    0x28  hardfault.o [1]
+  .rodata            const    0x0800d0c8    0x28  mico_platform_common.o [1]
+  .rodata            const    0x0800d0f0    0x28  upgrade_flash.o [1]
+  .rodata            const    0x0800d118    0x28  upgrade_flash.o [1]
+  .rodata            const    0x0800d140    0x28  VL53L0.o [1]
+  .text              ro code  0x0800d168    0x28  putchar.o [3]
+  .text              ro code  0x0800d190    0x1e  Retarget.o [1]
+  .text              ro code  0x0800d1b0    0x28  data_init.o [4]
+  .rodata            const    0x0800d1d8    0x24  can_protocol.o [1]
+  .rodata            const    0x0800d1fc    0x24  can_protocol.o [1]
+  .rodata            const    0x0800d220    0x24  can_protocol.o [1]
+  .rodata            const    0x0800d244    0x24  mico_platform_common.o [1]
+  .rodata            const    0x0800d268    0x24  platform_flash.o [1]
+  .rodata            const    0x0800d28c    0x24  StringUtils.o [1]
+  .rodata            const    0x0800d2b0    0x24  upgrade_flash.o [1]
+  .rodata            const    0x0800d2d4    0x24  upgrade_flash.o [1]
+  .rodata            const    0x0800d2f8    0x24  VL53L0.o [1]
+  .rodata            const    0x0800d31c    0x24  VL53L0.o [1]
+  .rodata            const    0x0800d340    0x24  VL53L0.o [1]
+  .iar.init_table    const    0x0800d364    0x24  - Linker created -
+  .rodata            const    0x0800d388    0x20  can_protocol.o [1]
+  .rodata            const    0x0800d3a8    0x20  can_protocol.o [1]
+  .rodata            const    0x0800d3c8    0x20  platform_gpio.o [1]
+  .rodata            const    0x0800d3e8    0x20  upgrade_flash.o [1]
+  .rodata            const    0x0800d408    0x20  upgrade_flash.o [1]
+  .rodata            const    0x0800d428    0x20  VL53L0.o [1]
+  .rodata            const    0x0800d448    0x1c  can_protocol.o [1]
+  .rodata            const    0x0800d464    0x1c  can_protocol.o [1]
+  .rodata            const    0x0800d480    0x1c  upgrade_flash.o [1]
+  .rodata            const    0x0800d49c    0x1c  upgrade_flash.o [1]
+  .rodata            const    0x0800d4b8    0x1c  VL53L0.o [1]
+  .text              ro code  0x0800d4d4    0x1c  crt0_EWARM.o [1]
+  .text              ro code  0x0800d4f0    0x1a  cmain.o [4]
+  .text              ro code  0x0800d50a     0x4  exit.o [3]
+  .text              ro code  0x0800d510     0xa  cexit.o [4]
+  .rodata            const    0x0800d51c    0x18  VL53L0.o [1]
+  .text              ro code  0x0800d534    0x16  xprout.o [3]
+  .rodata            const    0x0800d54c    0x14  hardfault.o [1]
+  .rodata            const    0x0800d560    0x14  hardfault.o [1]
+  .text              ro code  0x0800d574    0x12  startup_stm32f103xe_application_EWARM.o [1]
+  .rodata            const    0x0800d588    0x10  can_protocol.o [1]
+  .rodata            const    0x0800d598    0x10  can_protocol.o [1]
+  .rodata            const    0x0800d5a8    0x10  hardfault.o [1]
+  .rodata            const    0x0800d5b8    0x10  hardfault.o [1]
+  .rodata            const    0x0800d5c8    0x10  hardfault.o [1]
+  .rodata            const    0x0800d5d8    0x10  hardfault.o [1]
+  .rodata            const    0x0800d5e8    0x10  hardfault.o [1]
+  .rodata            const    0x0800d5f8    0x10  hardfault.o [1]
+  .rodata            const    0x0800d608    0x10  hardfault.o [1]
+  .rodata            const    0x0800d618    0x10  hardfault.o [1]
+  .rodata            const    0x0800d628    0x10  hardfault.o [1]
+  .rodata            const    0x0800d638    0x10  hardfault.o [1]
+  .rodata            const    0x0800d648    0x10  hardfault.o [1]
+  .rodata            const    0x0800d658    0x10  hardfault.o [1]
+  .rodata            const    0x0800d668    0x10  platform.o [1]
+  .rodata            const    0x0800d678    0x10  stm32f1xx_hal_rcc.o [1]
+  .rodata            const    0x0800d688    0x10  stm32f1xx_hal_rcc.o [1]
+  .rodata            const    0x0800d698    0x10  VL53L0.o [1]
+  .rodata            const    0x0800d6a8    0x10  VL53L0.o [1]
+  .rodata            const    0x0800d6b8    0x10  VL53L0.o [1]
+  .text              ro code  0x0800d6c8    0x10  platform_tim.o [1]
+  .rodata            const    0x0800d6d8     0xc  app_platform.o [1]
+  .rodata            const    0x0800d6e4     0xc  can_protocol.o [1]
+  .rodata            const    0x0800d6f0     0xc  hardfault.o [1]
+  .rodata            const    0x0800d6fc     0xc  hardfault.o [1]
+  .rodata            const    0x0800d708     0xc  hardfault.o [1]
+  .rodata            const    0x0800d714     0xc  platform.o [1]
+  .rodata            const    0x0800d720     0xc  platform.o [1]
+  .rodata            const    0x0800d72c     0xc  platform.o [1]
+  .rodata            const    0x0800d738     0xc  platform.o [1]
+  .rodata            const    0x0800d744     0xc  platform_flash.o [1]
+  .rodata            const    0x0800d750     0xc  platform_init.o [1]
+  .text              ro code  0x0800d75c     0xc  cstartup_M.o [4]
+  .rodata            const    0x0800d768     0x8  application.o [1]
+  .rodata            const    0x0800d770     0x8  can_protocol.o [1]
+  .rodata            const    0x0800d778     0x8  StringUtils.o [1]
+  .rodata            const    0x0800d780     0x8  upgrade_flash.o [1]
+  .text              ro code  0x0800d788     0x8  startup_stm32f103xe_application_EWARM.o [1]
+  .rodata            const    0x0800d790     0x4  platform_uart.o [1]
+  .text              ro code  0x0800d794     0x4  startup_stm32f103xe_application_EWARM.o [1]
+  .text              ro code  0x0800d798     0x4  startup_stm32f103xe_application_EWARM.o [1]
+  .text              ro code  0x0800d79c     0x4  startup_stm32f103xe_application_EWARM.o [1]
+  .text              ro code  0x0800d7a0     0x4  startup_stm32f103xe_application_EWARM.o [1]
+  .text              ro code  0x0800d7a4     0x4  startup_stm32f103xe_application_EWARM.o [1]
+  .text              ro code  0x0800d7a8     0x4  startup_stm32f103xe_application_EWARM.o [1]
+  .text              ro code  0x0800d7ac     0x4  startup_stm32f103xe_application_EWARM.o [1]
+  .text              ro code  0x0800d7b0     0x4  startup_stm32f103xe_application_EWARM.o [1]
+  .text              ro code  0x0800d7b4     0x4  startup_stm32f103xe_application_EWARM.o [1]
+  .text              ro code  0x0800d7b8     0x4  startup_stm32f103xe_application_EWARM.o [1]
+  .text              ro code  0x0800d7bc     0x4  startup_stm32f103xe_application_EWARM.o [1]
+  .text              ro code  0x0800d7c0     0x4  startup_stm32f103xe_application_EWARM.o [1]
+  .text              ro code  0x0800d7c4     0x4  startup_stm32f103xe_application_EWARM.o [1]
+  .text              ro code  0x0800d7c8     0x4  startup_stm32f103xe_application_EWARM.o [1]
+  .text              ro code  0x0800d7cc     0x4  startup_stm32f103xe_application_EWARM.o [1]
+  .text              ro code  0x0800d7d0     0x4  startup_stm32f103xe_application_EWARM.o [1]
+  .text              ro code  0x0800d7d4     0x4  startup_stm32f103xe_application_EWARM.o [1]
+  .text              ro code  0x0800d7d8     0x4  startup_stm32f103xe_application_EWARM.o [1]
+  .text              ro code  0x0800d7dc     0x4  startup_stm32f103xe_application_EWARM.o [1]
+  .text              ro code  0x0800d7e0     0x4  startup_stm32f103xe_application_EWARM.o [1]
+  .text              ro code  0x0800d7e4     0x4  startup_stm32f103xe_application_EWARM.o [1]
+  .text              ro code  0x0800d7e8     0x4  startup_stm32f103xe_application_EWARM.o [1]
+  .text              ro code  0x0800d7ec     0x4  startup_stm32f103xe_application_EWARM.o [1]
+  .text              ro code  0x0800d7f0     0x4  startup_stm32f103xe_application_EWARM.o [1]
+  .text              ro code  0x0800d7f4     0x4  startup_stm32f103xe_application_EWARM.o [1]
+  .text              ro code  0x0800d7f8     0x4  startup_stm32f103xe_application_EWARM.o [1]
+  .text              ro code  0x0800d7fc     0x4  startup_stm32f103xe_application_EWARM.o [1]
+  .text              ro code  0x0800d800     0x4  startup_stm32f103xe_application_EWARM.o [1]
+  .text              ro code  0x0800d804     0x4  startup_stm32f103xe_application_EWARM.o [1]
+  .text              ro code  0x0800d808     0x4  startup_stm32f103xe_application_EWARM.o [1]
+  .text              ro code  0x0800d80c     0x4  startup_stm32f103xe_application_EWARM.o [1]
+  .rodata            const    0x0800d810     0x0  zero_init3.o [4]
+  .rodata            const    0x0800d810     0x0  copy_init3.o [4]
+  Initializer bytes  const    0x0800d810   0x394  <for P2 s0>
+                            - 0x0800dba4  0xdab8
+
+"P2":                                     0x2238
+  P2 s0                       0x20000000   0x394  <Init block>
+    .data            inited   0x20000000   0x1b8  vl53l0x_api.o [1]
+    .data            inited   0x200001b8    0xf4  vl53l0x_api.o [1]
+    .data            inited   0x200002ac    0x68  platform.o [1]
+    .data            inited   0x20000314    0x40  platform.o [1]
+    .data            inited   0x20000354    0x14  platform.o [1]
+    .data            inited   0x20000368    0x10  vl53l0x_api_calibration.o [1]
+    .data            inited   0x20000378     0x4  can_protocol.o [1]
+    .data            inited   0x2000037c     0x4  can_protocol.o [1]
+    .data            inited   0x20000380     0x4  i2c.o [1]
+    .data            inited   0x20000384     0x4  system_stm32f1xx.o [1]
+    .data            inited   0x20000388     0x4  upgrade_flash.o [1]
+    .data            inited   0x2000038c     0x4  VL53L0.o [1]
+    .data            inited   0x20000390     0x4  VL53L0.o [1]
+  .bss               zero     0x20000394   0x3a4  can_protocol.o [1]
+  .bss               zero     0x20000738   0x1d8  dlmalloc.o [3]
+  .bss               zero     0x20000910   0x1c0  can_protocol.o [1]
+  .bss               zero     0x20000ad0   0x188  VL53L0.o [1]
+  .bss               zero     0x20000c58    0xc0  platform.o [1]
+  .bss               zero     0x20000d18    0xc0  platform_gpio.o [1]
+  .bss               zero     0x20000dd8    0xa8  platform.o [1]
+  .bss               zero     0x20000e80    0xa8  platform.o [1]
+  .bss               zero     0x20000f28    0x40  can_protocol.o [1]
+  .bss               zero     0x20000f68    0x40  platform_init.o [1]
+  .bss               zero     0x20000fa8    0x24  platform.o [1]
+  .bss               zero     0x20000fd0    0x20  stm32f1xx_hal_flash.o [1]
+  .bss               zero     0x20000ff0    0x1c  can_protocol.o [1]
+  .bss               zero     0x2000100c    0x1c  platform.o [1]
+  .bss               zero     0x20001028    0x1c  VL53L0.o [1]
+  .bss               zero     0x20001044    0x18  can_protocol.o [1]
+  .bss               zero     0x2000105c    0x18  upgrade_flash.o [1]
+  .bss               zero     0x20001074    0x18  upgrade_flash.o [1]
+  .bss               zero     0x2000108c    0x18  dlmalloc.o [3]
+  .bss               zero     0x200010a4    0x10  can_protocol.o [1]
+  .bss               zero     0x200010b4    0x10  can_protocol.o [1]
+  .bss               zero     0x200010c4    0x10  platform_flash.o [1]
+  .bss               zero     0x200010d4    0x10  platform_init.o [1]
+  .bss               zero     0x200010e4     0xc  platform.o [1]
+  .bss               zero     0x200010f0     0xc  platform_uart.o [1]
+  .bss               zero     0x200010fc     0xc  platform_uart.o [1]
+  .bss               zero     0x20001108     0x4  application.o [1]
+  .bss               zero     0x2000110c     0x4  application.o [1]
+  .bss               zero     0x20001110     0x4  application.o [1]
+  .bss               zero     0x20001114     0x4  can_protocol.o [1]
+  .bss               zero     0x20001118     0x4  can_protocol.o [1]
+  .bss               zero     0x2000111c     0x4  platform_init.o [1]
+  .bss               zero     0x20001120     0x4  stm32f1xx_hal.o [1]
+  .bss               zero     0x20001124     0x4  upgrade_flash.o [1]
+  .bss               zero     0x20001128     0x4  xgetmemchunk.o [3]
+  .bss               zero     0x2000112c     0x1  application.o [1]
+  .bss               zero     0x2000112d     0x1  application.o [1]
+  .bss               zero     0x2000112e     0x1  application.o [1]
+  .bss               zero     0x2000112f     0x1  can_protocol.o [1]
+  .bss               zero     0x20001130     0x1  VL53L0.o [1]
+  CSTACK                      0x20001138  0x1000  <Block>
+    CSTACK           uninit   0x20001138  0x1000  <Block tail>
+  HEAP                        0x20002138   0x100  <Block>
+    HEAP             uninit   0x20002138   0x100  <Block tail>
+                            - 0x20002238  0x2238
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0xd9d:
+          0x20000394  0xd9d
+
+Copy (__iar_copy_init3)
+    1 source range, total size 0x394:
+          0x0800d810  0x394
+    1 destination range, total size 0x394:
+          0x20000000  0x394
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                                   ro code  ro data  rw data
+    ------                                   -------  -------  -------
+C:\Users\admin\Desktop\EVT2-IAR\NOAH_LIGHT_Update\build\PowerBoard_V2\application\obj_RVMDK: [1]
+    LibMd5.o                                   3 202
+    Retarget.o                                    30
+    RingBufferUtils.o                             40
+    StringUtils.o                                160      188
+    URLUtils.o                                    16
+    VL53L0.o                                   1 164      388      429
+    app_platform.o                               132      204
+    application.o                                336      124       15
+    board_init.o                                  88
+    can_protocol.o                             3 576      780    1 545
+    crt0_EWARM.o                                  28
+    fifo.o                                       224
+    hardfault.o                                  652      408
+    i2c.o                                      1 620        4        4
+    mico_platform_common.o                     1 448      164
+    platform.o                                   342      728      792
+    platform_can.o                               664
+    platform_flash.o                           1 890      576       16
+    platform_gpio.o                              792       32      192
+    platform_init.o                              492       12       84
+    platform_mcu_powersave.o                      16
+    platform_tim.o                                16
+    platform_uart.o                            1 944        4       24
+    platform_watchdog.o                           16
+    rtos.o                                        36
+    startup_stm32f103xe_application_EWARM.o      386
+    stm32f1xx_hal.o                               88                 4
+    stm32f1xx_hal_can.o                        2 116
+    stm32f1xx_hal_cortex.o                       280
+    stm32f1xx_hal_dma.o                           88
+    stm32f1xx_hal_flash.o                        440                32
+    stm32f1xx_hal_flash_ex.o                     276
+    stm32f1xx_hal_gpio.o                         764
+    stm32f1xx_hal_msp_template.o                   2
+    stm32f1xx_hal_pwr.o                           36
+    stm32f1xx_hal_rcc.o                        3 200       34
+    stm32f1xx_hal_uart.o                         876
+    system_stm32f1xx.o                                      4        4
+    upgrade_flash.o                            1 508      580       56
+    vl53l0x_api.o                              4 814      684      684
+    vl53l0x_api_calibration.o                  2 424       16       16
+    vl53l0x_api_core.o                         7 218
+    vl53l0x_platform.o                            90
+    ------------------------------------------------------------------
+    Total:                                    43 530    4 930    3 897
+
+command line: [2]
+    ------------------------------------------------------------------
+    Total:
+
+dl7M_tln.a: [3]
+    abort.o                                        6
+    abs.o                                          8
+    dlmalloc.o                                 5 360               496
+    exit.o                                         4
+    printf.o                                      36
+    putchar.o                                     40
+    sprintf.o                                     52
+    strrchr.o                                     24
+    xgetmemchunk.o                                44                 4
+    xprintfsmall_nomb.o                        1 240
+    xprout.o                                      22
+    xsprout.o                                     10
+    ------------------------------------------------------------------
+    Total:                                     6 846               500
+
+rt7M_tl.a: [4]
+    ABImemclr4.o                                   6
+    ABImemcpy_unaligned.o                        118
+    ABImemset.o                                  102
+    ABImemset48.o                                 50
+    U64Shr.o                                      30
+    cexit.o                                       10
+    cmain.o                                       26
+    copy_init3.o                                  44
+    cstartup_M.o                                  12
+    data_init.o                                   40
+    memchr.o                                      88
+    memcmp_unaligned.o                            98
+    strchr.o                                      22
+    strcpy_unaligned.o                            68
+    strlen.o                                      54
+    zero_init3.o                                  64
+    ------------------------------------------------------------------
+    Total:                                       832
+
+shb_l.a: [5]
+    exit.o                                        20
+    ------------------------------------------------------------------
+    Total:                                        20
+
+    Gaps                                          28        6        4
+    Linker created                                         36    4 352
+----------------------------------------------------------------------
+    Grand Total:                              51 256    4 972    8 753
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address   Size  Type      Object
+-----                      -------   ----  ----      ------
+.iar.init_table$$Base   0x0800d364          --   Gb  - Linker created -
+.iar.init_table$$Limit  0x0800d388          --   Gb  - Linker created -
+.intvec$$Base           0x08000000          --   Gb  - Linker created -
+.intvec$$Limit          0x080000ec          --   Gb  - Linker created -
+?main                   0x0800d4f1         Code  Gb  cmain.o [4]
+CAN_Receive_IT          0x08007205  0x17c  Code  Lc  stm32f1xx_hal_can.o [1]
+CAN_Transmit_IT         0x080071c1   0x44  Code  Lc  stm32f1xx_hal_can.o [1]
+CSTACK$$Base            0x20001138          --   Gb  - Linker created -
+CSTACK$$Limit           0x20002138          --   Gb  - Linker created -
+CanLongBufInit          0x08009fe9   0x3e  Code  Gb  can_protocol.o [1]
+CanTX                   0x08009bbb  0x28a  Code  Gb  can_protocol.o [1]
+CanTxdataBuff           0x20000910  0x1c0  Data  Gb  can_protocol.o [1]
+CmdProcessing           0x08009e45  0x124  Code  Gb  can_protocol.o [1]
+DMA1_Channel1_IRQHandler
+                        0x0800855d    0x4  Code  Gb  platform.o [1]
+DMA1_Channel2_IRQHandler
+                        0x08008521    0xa  Code  Gb  platform.o [1]
+DMA1_Channel3_IRQHandler
+                        0x0800853f    0xa  Code  Gb  platform.o [1]
+DMA1_Channel4_IRQHandler
+                        0x0800852b    0xa  Code  Gb  platform.o [1]
+DMA1_Channel5_IRQHandler
+                        0x08008549    0xa  Code  Gb  platform.o [1]
+DMA1_Channel6_IRQHandler
+                        0x08008553    0xa  Code  Gb  platform.o [1]
+DMA1_Channel7_IRQHandler
+                        0x08008535    0xa  Code  Gb  platform.o [1]
+DMA2_Channel4_5_IRQHandler
+                        0x08008561    0x4  Code  Gb  platform.o [1]
+DataToHexString         0x0800bc39   0x8a  Code  Gb  StringUtils.o [1]
+DefaultTuningSettings   0x200001b8   0xf4  Data  Gb  vl53l0x_api.o [1]
+EXTI0_IRQHandler        0x08004965    0x8  Code  Gb  platform_gpio.o [1]
+EXTI15_10_IRQHandler    0x08004995    0x8  Code  Gb  platform_gpio.o [1]
+EXTI1_IRQHandler        0x0800496d    0x8  Code  Gb  platform_gpio.o [1]
+EXTI2_IRQHandler        0x08004975    0x8  Code  Gb  platform_gpio.o [1]
+EXTI3_IRQHandler        0x0800497d    0x8  Code  Gb  platform_gpio.o [1]
+EXTI4_IRQHandler        0x08004985    0x8  Code  Gb  platform_gpio.o [1]
+EXTI9_5_IRQHandler      0x0800498d    0x8  Code  Gb  platform_gpio.o [1]
+EnableSwjAndDisableJtag
+                        0x0800499d   0x12  Code  Gb  platform_gpio.o [1]
+FLASH_MassErase         0x08006a89   0x2a  Code  Lc  stm32f1xx_hal_flash_ex.o [1]
+FLASH_PageErase         0x08006ab3   0x24  Code  Gb  stm32f1xx_hal_flash_ex.o [1]
+FLASH_Program_HalfWord  0x080068f3   0x16  Code  Lc  stm32f1xx_hal_flash.o [1]
+FLASH_SetErrorCode      0x08006965   0x50  Code  Lc  stm32f1xx_hal_flash.o [1]
+FLASH_WaitForLastOperation
+                        0x08006909   0x5c  Code  Gb  stm32f1xx_hal_flash.o [1]
+FifoGetCanPkg           0x08007419   0x48  Code  Gb  fifo.o [1]
+FifoInit                0x08007381   0x1a  Code  Gb  fifo.o [1]
+FifoPutCanPkg           0x080073cb   0x4e  Code  Gb  fifo.o [1]
+FreeBuf                 0x08009f93   0x2a  Code  Lc  can_protocol.o [1]
+GetCanSrcId             0x08009b75   0x46  Code  Gb  can_protocol.o [1]
+GetKeyValue             0x0800860d   0x1e  Code  Gb  platform.o [1]
+GetOneFreeBuf           0x08009f69   0x2a  Code  Lc  can_protocol.o [1]
+GetTheBufById           0x08009fbd   0x2c  Code  Lc  can_protocol.o [1]
+HAL_CAN_ConfigFilter    0x08006c6f  0x128  Code  Gb  stm32f1xx_hal_can.o [1]
+HAL_CAN_ErrorCallback   0x080071bf    0x2  Code  Wk  stm32f1xx_hal_can.o [1]
+HAL_CAN_IRQHandler      0x08007041  0x16c  Code  Gb  stm32f1xx_hal_can.o [1]
+HAL_CAN_Init            0x08006b3d  0x132  Code  Gb  stm32f1xx_hal_can.o [1]
+HAL_CAN_MspInit         0x08006d97    0x2  Code  Wk  stm32f1xx_hal_can.o [1]
+HAL_CAN_Receive_IT      0x08006fc5   0x7c  Code  Gb  stm32f1xx_hal_can.o [1]
+HAL_CAN_RxCpltCallback  0x08005b57   0x52  Code  Gb  platform_can.o [1]
+HAL_CAN_Transmit        0x08006d99  0x22c  Code  Gb  stm32f1xx_hal_can.o [1]
+HAL_CAN_TxCpltCallback  0x080071bd    0x2  Code  Wk  stm32f1xx_hal_can.o [1]
+HAL_DMA_Init            0x080062a9   0x58  Code  Gb  stm32f1xx_hal_dma.o [1]
+HAL_Delay               0x08006b19   0x1a  Code  Wk  stm32f1xx_hal.o [1]
+HAL_FLASHEx_Erase       0x080069d1   0xb8  Code  Gb  stm32f1xx_hal_flash_ex.o [1]
+HAL_FLASH_Program       0x08006819   0xbe  Code  Gb  stm32f1xx_hal_flash.o [1]
+HAL_FLASH_Unlock        0x080068d7   0x1c  Code  Gb  stm32f1xx_hal_flash.o [1]
+HAL_GPIO_Init           0x08005bd9  0x2ba  Code  Gb  stm32f1xx_hal_gpio.o [1]
+HAL_GetTick             0x08006b13    0x6  Code  Wk  stm32f1xx_hal.o [1]
+HAL_IncTick             0x08006b07    0xc  Code  Wk  stm32f1xx_hal.o [1]
+HAL_Init                0x08006ae5   0x22  Code  Gb  stm32f1xx_hal.o [1]
+HAL_InitTick            0x080082e5   0x24  Code  Gb  platform_init.o [1]
+HAL_MspInit             0x080084ad    0x2  Code  Gb  stm32f1xx_hal_msp_template.o [1]
+HAL_NVIC_SetPriority    0x08008271   0x26  Code  Gb  stm32f1xx_hal_cortex.o [1]
+HAL_NVIC_SetPriorityGrouping
+                        0x08008265    0xc  Code  Gb  stm32f1xx_hal_cortex.o [1]
+HAL_PWR_EnterSTANDBYMode
+                        0x080084b1   0x1c  Code  Gb  stm32f1xx_hal_pwr.o [1]
+HAL_RCC_ClockConfig     0x08007c3d  0x372  Code  Gb  stm32f1xx_hal_rcc.o [1]
+HAL_RCC_GetHCLKFreq     0x08008039   0x28  Code  Gb  stm32f1xx_hal_rcc.o [1]
+HAL_RCC_GetPCLK1Freq    0x08008061   0x20  Code  Gb  stm32f1xx_hal_rcc.o [1]
+HAL_RCC_GetPCLK2Freq    0x08008089   0x20  Code  Gb  stm32f1xx_hal_rcc.o [1]
+HAL_RCC_GetSysClockFreq
+                        0x08007faf   0x8a  Code  Gb  stm32f1xx_hal_rcc.o [1]
+HAL_RCC_OscConfig       0x08007461  0x7dc  Code  Gb  stm32f1xx_hal_rcc.o [1]
+HAL_SYSTICK_Config      0x08008297    0xc  Code  Gb  stm32f1xx_hal_cortex.o [1]
+HAL_UART_GetState       0x080060ab    0x6  Code  Gb  stm32f1xx_hal_uart.o [1]
+HAL_UART_Init           0x08005f3d   0x70  Code  Gb  stm32f1xx_hal_uart.o [1]
+HAL_UART_MspInit        0x08005fad    0x2  Code  Wk  stm32f1xx_hal_uart.o [1]
+HAL_UART_Transmit       0x08005faf   0xfc  Code  Gb  stm32f1xx_hal_uart.o [1]
+HEAP$$Base              0x20002138          --   Gb  - Linker created -
+HEAP$$Limit             0x20002238          --   Gb  - Linker created -
+I2C0_ACK                0x0800320d   0x70  Code  Gb  i2c.o [1]
+I2C0_Init               0x08003051   0x6c  Code  Gb  i2c.o [1]
+I2C0_NACK               0x0800327d   0x70  Code  Gb  i2c.o [1]
+I2C0_Read_Byte          0x0800339d   0xa0  Code  Gb  i2c.o [1]
+I2C0_Send_Byte          0x080032ed   0xae  Code  Gb  i2c.o [1]
+I2C0_SetSpeed           0x0800343d   0x3a  Code  Gb  i2c.o [1]
+I2C0_Start              0x080030bd   0x70  Code  Gb  i2c.o [1]
+I2C0_Stop               0x0800312d   0x68  Code  Gb  i2c.o [1]
+I2C0_Wait_ACK           0x08003195   0x76  Code  Gb  i2c.o [1]
+InterruptThresholdSettings
+                        0x20000000  0x1b8  Data  Gb  vl53l0x_api.o [1]
+IsFifoEmpty             0x0800739b   0x12  Code  Gb  fifo.o [1]
+IsFifoFull              0x080073ad   0x1e  Code  Lc  fifo.o [1]
+LeakyFactorFix8         0x2000038c    0x4  Data  Gb  VL53L0.o [1]
+LightData               0x2000112f    0x1  Data  Gb  can_protocol.o [1]
+LoadInt                 0x080066c7   0x4c  Code  Lc  xprintfsmall_nomb.o [3]
+MICOUpdateConfiguration
+                        0x0800ae3d   0xc6  Code  Gb  upgrade_flash.o [1]
+Md5Finalise             0x0800bac1  0x112  Code  Gb  LibMd5.o [1]
+Md5Initialise           0x0800b8ef   0x1a  Code  Gb  LibMd5.o [1]
+Md5Update               0x0800ba19   0xa8  Code  Gb  LibMd5.o [1]
+MicoCanInitialize       0x08004625   0x1e  Code  Gb  mico_platform_common.o [1]
+MicoCanMessageSend      0x08004643   0x22  Code  Gb  mico_platform_common.o [1]
+MicoFlashErase          0x08004335  0x15e  Code  Gb  mico_platform_common.o [1]
+MicoFlashGetInfo        0x080041b3   0x20  Code  Gb  mico_platform_common.o [1]
+MicoFlashInitialize     0x080041d3  0x15a  Code  Gb  mico_platform_common.o [1]
+MicoFlashWrite          0x0800449d  0x182  Code  Gb  mico_platform_common.o [1]
+MicoGpioInitialize      0x080040e9   0x24  Code  Gb  mico_platform_common.o [1]
+MicoGpioOutputHigh      0x0800410d   0x20  Code  Gb  mico_platform_common.o [1]
+MicoGpioOutputLow       0x0800412d   0x20  Code  Gb  mico_platform_common.o [1]
+MicoGpioOutputTrigger   0x0800414d   0x20  Code  Gb  mico_platform_common.o [1]
+MicoUartSend            0x0800418b   0x28  Code  Gb  mico_platform_common.o [1]
+NVIC_ClearPendingIRQ    0x08005945   0x14  Code  Lc  platform_can.o [1]
+NVIC_EnableIRQ          0x08005931   0x14  Code  Lc  platform_can.o [1]
+NVIC_EnableIRQ          0x080049dd   0x16  Code  Lc  platform_uart.o [1]
+NVIC_EncodePriority     0x080081f7   0x3e  Code  Lc  stm32f1xx_hal_cortex.o [1]
+NVIC_GetPriorityGrouping
+                        0x080081c7    0xa  Code  Lc  stm32f1xx_hal_cortex.o [1]
+NVIC_SetPriority        0x080084d5   0x26  Code  Lc  platform.o [1]
+NVIC_SetPriority        0x080081d1   0x26  Code  Lc  stm32f1xx_hal_cortex.o [1]
+NVIC_SetPriorityGrouping
+                        0x080081a9   0x1e  Code  Lc  stm32f1xx_hal_cortex.o [1]
+NVIC_SystemReset        0x080082c1   0x1c  Code  Lc  platform_init.o [1]
+Platform_Init           0x0800c575   0x6a  Code  Gb  app_platform.o [1]
+RangingMeasurementData  0x20001028   0x1c  Data  Gb  VL53L0.o [1]
+Region$$Table$$Base     0x0800d364          --   Gb  - Linker created -
+Region$$Table$$Limit    0x0800d388          --   Gb  - Linker created -
+SensorData              0x20001044   0x18  Data  Gb  can_protocol.o [1]
+Sensor_SetNewRange      0x0800bf8f   0x48  Code  Gb  VL53L0.o [1]
+SysLed                  0x0800c4b5   0x42  Code  Gb  application.o [1]
+SysLight                0x0800c4f7   0x5a  Code  Gb  application.o [1]
+SysTick_Config          0x08008235   0x30  Code  Lc  stm32f1xx_hal_cortex.o [1]
+SysTick_Handler         0x080084fb    0x8  Code  Gb  platform.o [1]
+SystemCoreClock         0x20000384    0x4  Data  Gb  system_stm32f1xx.o [1]
+TIM2_IRQHandler         0x0800d6c9   0x10  Code  Gb  platform_tim.o [1]
+TransformFunction       0x0800af51  0x99e  Code  Lc  LibMd5.o [1]
+TxMessage               0x20000ff0   0x1c  Data  Gb  can_protocol.o [1]
+UART_SetConfig          0x08006193  0x10c  Code  Lc  stm32f1xx_hal_uart.o [1]
+UART_WaitOnFlagUntilTimeout
+                        0x080060b1   0xe2  Code  Lc  stm32f1xx_hal_uart.o [1]
+USART1_IRQHandler       0x0800850d    0xa  Code  Gb  platform.o [1]
+USART2_IRQHandler       0x08008517    0xa  Code  Gb  platform.o [1]
+USART3_IRQHandler       0x08008503    0xa  Code  Gb  platform.o [1]
+USB_LP_CAN1_RX0_IRQHandler
+                        0x08008565    0xa  Code  Gb  platform.o [1]
+UartHandle              0x20000c58   0xc0  Data  Lc  platform.o [1]
+VL53L0XDevs             0x20000ad0  0x188  Data  Lc  VL53L0.o [1]
+VL53L0X_CheckAndLoadInterruptSettings
+                        0x0800289b   0x9e  Code  Gb  vl53l0x_api.o [1]
+VL53L0X_ClearInterruptMask
+                        0x08002f3f   0x64  Code  Gb  vl53l0x_api.o [1]
+VL53L0X_DataInit        0x08001d41  0x1fa  Code  Gb  vl53l0x_api.o [1]
+VL53L0X_Detect          0x0800bd0d  0x154  Code  Gb  VL53L0.o [1]
+VL53L0X_GetDeviceMode   0x08002235    0xc  Code  Gb  vl53l0x_api.o [1]
+VL53L0X_GetDeviceParameters
+                        0x08002141   0xca  Code  Gb  vl53l0x_api.o [1]
+VL53L0X_GetFractionEnable
+                        0x08002241   0x2a  Code  Gb  vl53l0x_api.o [1]
+VL53L0X_GetInterMeasurementPeriodMilliSeconds
+                        0x080024ad   0x52  Code  Gb  vl53l0x_api.o [1]
+VL53L0X_GetInterruptMaskStatus
+                        0x08002fa3   0x38  Code  Gb  vl53l0x_api.o [1]
+VL53L0X_GetInterruptThresholds
+                        0x08002ee3   0x5c  Code  Gb  vl53l0x_api.o [1]
+VL53L0X_GetLimitCheckEnable
+                        0x08002643   0x2a  Code  Gb  vl53l0x_api.o [1]
+VL53L0X_GetLimitCheckValue
+                        0x080026fb   0xea  Code  Gb  vl53l0x_api.o [1]
+VL53L0X_GetMeasurementDataReady
+                        0x08002a8d   0x5e  Code  Gb  vl53l0x_api.o [1]
+VL53L0X_GetMeasurementTimingBudgetMicroSeconds
+                        0x08002283   0x18  Code  Gb  vl53l0x_api.o [1]
+VL53L0X_GetOffsetCalibrationDataMicroMeter
+                        0x08001d29   0x18  Code  Gb  vl53l0x_api.o [1]
+VL53L0X_GetRange        0x0800bff3   0xaa  Code  Gb  VL53L0.o [1]
+VL53L0X_GetRangingMeasurementData
+                        0x08002aeb  0x1ba  Code  Gb  vl53l0x_api.o [1]
+VL53L0X_GetSequenceStepEnables
+                        0x0800241b   0x92  Code  Gb  vl53l0x_api.o [1]
+VL53L0X_GetVcselPulsePeriod
+                        0x080022bb   0x1e  Code  Gb  vl53l0x_api.o [1]
+VL53L0X_GetWrapAroundCheckEnable
+                        0x080027e5   0x4a  Code  Gb  vl53l0x_api.o [1]
+VL53L0X_GetXTalkCompensationEnable
+                        0x080024ff   0x12  Code  Gb  vl53l0x_api.o [1]
+VL53L0X_GetXTalkCompensationRateMegaCps
+                        0x08002511   0x48  Code  Gb  vl53l0x_api.o [1]
+VL53L0X_PerformRefCalibration
+                        0x0800287d   0x1e  Code  Gb  vl53l0x_api.o [1]
+VL53L0X_PerformRefSpadManagement
+                        0x08002fdb   0x1c  Code  Gb  vl53l0x_api.o [1]
+VL53L0X_PerformSingleMeasurement
+                        0x0800282f   0x4e  Code  Gb  vl53l0x_api.o [1]
+VL53L0X_PerformSingleRangingMeasurement
+                        0x08002ca5   0x26  Code  Gb  vl53l0x_api.o [1]
+VL53L0X_PollingDelay    0x08003049    0x8  Code  Gb  vl53l0x_platform.o [1]
+VL53L0X_SetDeviceMode   0x0800220b   0x2a  Code  Gb  vl53l0x_api.o [1]
+VL53L0X_SetGpioConfig   0x08002ccb  0x218  Code  Gb  vl53l0x_api.o [1]
+VL53L0X_SetLimitCheckEnable
+                        0x08002559   0xea  Code  Gb  vl53l0x_api.o [1]
+VL53L0X_SetLimitCheckValue
+                        0x0800266d   0x8e  Code  Gb  vl53l0x_api.o [1]
+VL53L0X_SetMeasurementTimingBudgetMicroSeconds
+                        0x0800226b   0x18  Code  Gb  vl53l0x_api.o [1]
+VL53L0X_SetSequenceStepEnable
+                        0x080022d9   0xee  Code  Gb  vl53l0x_api.o [1]
+VL53L0X_SetVcselPulsePeriod
+                        0x0800229b   0x20  Code  Gb  vl53l0x_api.o [1]
+VL53L0X_Setup           0x0800be61  0x12e  Code  Gb  VL53L0.o [1]
+VL53L0X_StartMeasurement
+                        0x0800294d  0x140  Code  Gb  vl53l0x_api.o [1]
+VL53L0X_StartRange      0x0800bfd7   0x1c  Code  Gb  VL53L0.o [1]
+VL53L0X_StaticInit      0x08001f3b  0x206  Code  Gb  vl53l0x_api.o [1]
+VL53L0X_UpdateByte      0x08002ff7   0x52  Code  Gb  vl53l0x_platform.o [1]
+VL53L0X_calc_dmax       0x08001509  0x1ac  Code  Gb  vl53l0x_api_core.o [1]
+VL53L0X_calc_macro_period_ps
+                        0x08000863   0x22  Code  Gb  vl53l0x_api_core.o [1]
+VL53L0X_calc_sigma_estimate
+                        0x080016b5  0x332  Code  Gb  vl53l0x_api_core.o [1]
+VL53L0X_calc_timeout_mclks
+                        0x080008cf   0x40  Code  Gb  vl53l0x_api_core.o [1]
+VL53L0X_calc_timeout_us
+                        0x0800090f   0x42  Code  Gb  vl53l0x_api_core.o [1]
+VL53L0X_decode_timeout  0x080008b7   0x18  Code  Gb  vl53l0x_api_core.o [1]
+VL53L0X_decode_vcsel_period
+                        0x08000133    0xe  Code  Gb  vl53l0x_api_core.o [1]
+VL53L0X_device_read_strobe
+                        0x0800017f   0x66  Code  Gb  vl53l0x_api_core.o [1]
+VL53L0X_encode_timeout  0x08000885   0x32  Code  Gb  vl53l0x_api_core.o [1]
+VL53L0X_encode_vcsel_period
+                        0x08000141   0x12  Code  Gb  vl53l0x_api_core.o [1]
+VL53L0X_get_info_from_device
+                        0x080001e5  0x67e  Code  Gb  vl53l0x_api_core.o [1]
+VL53L0X_get_measurement_timing_budget_micro_seconds
+                        0x08001227  0x11c  Code  Gb  vl53l0x_api_core.o [1]
+VL53L0X_get_offset_calibration_data_micro_meter
+                        0x080036e9   0x66  Code  Gb  vl53l0x_api_calibration.o [1]
+VL53L0X_get_pal_range_status
+                        0x080019f5  0x32a  Code  Gb  vl53l0x_api_core.o [1]
+VL53L0X_get_total_signal_rate
+                        0x080014db   0x2e  Code  Gb  vl53l0x_api_core.o [1]
+VL53L0X_get_total_xtalk_rate
+                        0x08001497   0x44  Code  Gb  vl53l0x_api_core.o [1]
+VL53L0X_get_vcsel_pulse_period
+                        0x08001065   0x52  Code  Gb  vl53l0x_api_core.o [1]
+VL53L0X_isqrt           0x08000153   0x2c  Code  Gb  vl53l0x_api_core.o [1]
+VL53L0X_load_tuning_settings
+                        0x08001343  0x154  Code  Gb  vl53l0x_api_core.o [1]
+VL53L0X_measurement_poll_for_completion
+                        0x080000ed   0x46  Code  Gb  vl53l0x_api_core.o [1]
+VL53L0X_perform_phase_calibration
+                        0x08003f33   0xba  Code  Gb  vl53l0x_api_calibration.o [1]
+VL53L0X_perform_ref_calibration
+                        0x08003fed   0x74  Code  Gb  vl53l0x_api_calibration.o [1]
+VL53L0X_perform_ref_spad_management
+                        0x080039bf  0x34c  Code  Gb  vl53l0x_api_calibration.o [1]
+VL53L0X_perform_single_ref_calibration
+                        0x08003d0b   0x58  Code  Gb  vl53l0x_api_calibration.o [1]
+VL53L0X_perform_vhv_calibration
+                        0x08003e73   0xc0  Code  Gb  vl53l0x_api_calibration.o [1]
+VL53L0X_ref_calibration_io
+                        0x08003d63  0x110  Code  Gb  vl53l0x_api_calibration.o [1]
+VL53L0X_set_measurement_timing_budget_micro_seconds
+                        0x080010b7  0x170  Code  Gb  vl53l0x_api_core.o [1]
+VL53L0X_set_vcsel_pulse_period
+                        0x08000c41  0x424  Code  Gb  vl53l0x_api_core.o [1]
+_GetPageAddress         0x08005911   0x1e  Code  Lc  platform_flash.o [1]
+_LitobSmallNoMb         0x08006713   0xce  Code  Lc  xprintfsmall_nomb.o [3]
+_PrintfSmallNoMb        0x08006341  0x380  Code  Gb  xprintfsmall_nomb.o [3]
+_Prout                  0x0800d535   0x16  Code  Gb  xprout.o [3]
+_PutcharsSmallNoMb      0x080067e1   0x2e  Code  Lc  xprintfsmall_nomb.o [3]
+_SProut                 0x08001d1f    0xa  Code  Gb  xsprout.o [3]
+__aeabi_llsr            0x08008189         Code  Gb  U64Shr.o [4]
+__aeabi_memclr4         0x080040e1         Code  Gb  ABImemclr4.o [4]
+__aeabi_memset          0x08005ed5         Code  Gb  ABImemset.o [4]
+__cmain                 0x0800d4f1         Code  Gb  cmain.o [4]
+__data_GetMemChunk      0x08009b35   0x2c  Code  Gb  xgetmemchunk.o [3]
+__exit                  0x08009b61   0x14  Code  Gb  exit.o [5]
+__iar_Memchr            0x08008131         Code  Gb  memchr.o [4]
+__iar_Memset            0x08005ed5         Code  Gb  ABImemset.o [4]
+__iar_Memset4_word      0x08004691         Code  Gb  ABImemset48.o [4]
+__iar_Memset8_word      0x08004691         Code  Gb  ABImemset48.o [4]
+__iar_Memset_word       0x08005edd         Code  Gb  ABImemset.o [4]
+__iar_Strchr            0x080080e1         Code  Gb  strchr.o [4]
+__iar_Strrchr           0x08006329   0x18  Code  Gb  strrchr.o [3]
+__iar_copy_init3        0x0800cfd5   0x2c  Code  Gb  copy_init3.o [4]
+__iar_data_init3        0x0800d1b1   0x28  Code  Gb  data_init.o [4]
+__iar_dlfree            0x08009613  0x510  Code  Gb  dlmalloc.o [3]
+__iar_dlmalloc          0x0800935d  0x2aa  Code  Gb  dlmalloc.o [3]
+__iar_program_start     0x0800d75d         Code  Gb  cstartup_M.o [4]
+__iar_unaligned___aeabi_memcpy
+                        0x08004069         Code  Gb  ABImemcpy_unaligned.o [4]
+__iar_unaligned___aeabi_memcpy4
+                        0x08004089         Code  Gb  ABImemcpy_unaligned.o [4]
+__iar_unaligned___aeabi_memcpy8
+                        0x08004089         Code  Gb  ABImemcpy_unaligned.o [4]
+__iar_unaligned_memcmp  0x0800bbd5         Code  Gb  memcmp_unaligned.o [4]
+__iar_unaligned_strcpy  0x080036a5         Code  Gb  strcpy_unaligned.o [4]
+__iar_zero_init3        0x0800cbf1   0x40  Code  Gb  zero_init3.o [4]
+__low_level_init        0x0800d4d5   0x1c  Code  Gb  crt0_EWARM.o [1]
+__vector_table          0x08000000         Data  Gb  startup_stm32f103xe_application_EWARM.o [1]
+__write                 0x0800d191   0x1e  Code  Gb  Retarget.o [1]
+_call_main              0x0800d4fd         Code  Gb  cmain.o [4]
+_exit                   0x0800d511         Code  Gb  cexit.o [4]
+_gm_                    0x20000738  0x1d8  Data  Lc  dlmalloc.o [3]
+_main                   0x0800d507         Code  Gb  cmain.o [4]
+aAPBAHBPrescTable       0x0800d688   0x10  Data  Gb  stm32f1xx_hal_rcc.o [1]
+abort                   0x08009b2d    0x6  Code  Gb  abort.o [3]
+abs                     0x08004061    0x8  Code  Gb  abs.o [3]
+board_gpios_init        0x0800c5f9   0x58  Code  Gb  board_init.o [1]
+bootTable               0x20001074   0x18  Data  Gb  upgrade_flash.o [1]
+bsp_Init                0x0800c5f1    0x8  Code  Gb  app_platform.o [1]
+canAckBack              0x0800a027   0x96  Code  Gb  can_protocol.o [1]
+can_fifo                0x20000378    0x4  Data  Gb  can_protocol.o [1]
+can_fifo_ram            0x200010a4   0x10  Data  Gb  can_protocol.o [1]
+can_handle              0x20000314   0x40  Data  Gb  platform.o [1]
+can_light_send          0x0800a371   0x4c  Code  Gb  can_protocol.o [1]
+can_long_frame_buf      0x2000037c    0x4  Data  Gb  can_protocol.o [1]
+can_long_frame_buf_ram  0x20000394  0x3a4  Data  Gb  can_protocol.o [1]
+can_pkg                 0x20000f28   0x40  Data  Gb  can_protocol.o [1]
+can_protocol_period     0x0800a3d9  0x500  Code  Gb  can_protocol.o [1]
+can_rx_msg              0x20000fa8   0x24  Data  Gb  platform.o [1]
+can_test_cnt            0x20001114    0x4  Data  Lc  can_protocol.o [1]
+can_tx_msg              0x2000100c   0x1c  Data  Gb  platform.o [1]
+clear_dma_interrupts    0x08005015    0xc  Code  Lc  platform_uart.o [1]
+double_write_I2C0       0x080034c7   0x76  Code  Gb  i2c.o [1]
+enable_ref_spads        0x0800385b   0xc8  Code  Gb  vl53l0x_api_calibration.o [1]
+enable_spad_bit         0x080037f1   0x3a  Code  Gb  vl53l0x_api_calibration.o [1]
+exit                    0x0800d50b    0x4  Code  Gb  exit.o [3]
+filter_buff             0x20000390    0x4  Data  Lc  VL53L0.o [1]
+get_dma_irq_status      0x08005021    0x4  Code  Lc  platform_uart.o [1]
+get_next_good_spad      0x0800374f   0x80  Code  Gb  vl53l0x_api_calibration.o [1]
+get_ref_spad_map        0x08003843   0x18  Code  Gb  vl53l0x_api_calibration.o [1]
+get_sequence_step_timeout
+                        0x08000951  0x168  Code  Gb  vl53l0x_api_core.o [1]
+gpio_irq                0x08004897   0xce  Code  Gb  platform_gpio.o [1]
+gpio_irq_data           0x20000d18   0xc0  Data  Lc  platform_gpio.o [1]
+gpio_peripheral_clocks  0x0800d3c8   0x20  Data  Gb  platform_gpio.o [1]
+hard_fault_handler_c    0x0800c199  0x28c  Code  Gb  hardfault.o [1]
+hdma_rx                 0x200010fc    0xc  Data  Lc  platform_uart.o [1]
+hdma_tx                 0x200010f0    0xc  Data  Lc  platform_uart.o [1]
+i2c0_speed              0x20000380    0x4  Data  Gb  i2c.o [1]
+init_architecture       0x08008381   0xae  Code  Gb  platform_init.o [1]
+init_clocks             0x08008309   0x76  Code  Gb  platform_init.o [1]
+init_memory             0x0800837f    0x2  Code  Wk  platform_init.o [1]
+init_mparams            0x08008657   0x32  Code  Lc  dlmalloc.o [3]
+init_platform           0x080085f3    0x2  Code  Gb  platform.o [1]
+init_top                0x08008689   0x34  Code  Lc  dlmalloc.o [3]
+internalFlashErase      0x080053d3   0xec  Code  Lc  platform_flash.o [1]
+internalFlashInitialize
+                        0x080053c1   0x12  Code  Lc  platform_flash.o [1]
+internalFlashWrite      0x080054c5  0x406  Code  Lc  platform_flash.o [1]
+is_aperture             0x080037cf   0x1a  Code  Gb  vl53l0x_api_calibration.o [1]
+light_data_filter       0x0800c09d   0xb2  Code  Gb  VL53L0.o [1]
+light_delay             0x2000112d    0x1  Data  Lc  application.o [1]
+light_index             0x2000112c    0x1  Data  Gb  application.o [1]
+main                    0x0800c425   0x90  Code  Gb  application.o [1]
+meas_st                 0x20001130    0x1  Data  Lc  VL53L0.o [1]
+memchr                  0x08008131         Code  Gb  memchr.o [4]
+mico_gpio_input_get     0x0800416d   0x1e  Code  Gb  mico_platform_common.o [1]
+mico_partitions         0x0800c89c   0x64  Data  Gb  platform.o [1]
+mico_rtos_get_semaphore
+                        0x0800517b    0x6  Code  Gb  rtos.o [1]
+mico_rtos_init_mutex    0x08005187    0x6  Code  Gb  rtos.o [1]
+mico_rtos_init_semaphore
+                        0x08005175    0x6  Code  Gb  rtos.o [1]
+mico_rtos_lock_mutex    0x0800518d    0x6  Code  Gb  rtos.o [1]
+mico_rtos_set_semaphore
+                        0x08005181    0x6  Code  Gb  rtos.o [1]
+mico_rtos_unlock_mutex  0x08005193    0x6  Code  Gb  rtos.o [1]
+mparams                 0x2000108c   0x18  Data  Lc  dlmalloc.o [3]
+multi_read_I2C0         0x0800360b   0x86  Code  Gb  i2c.o [1]
+multi_write_I2C0        0x0800353d   0x6e  Code  Gb  i2c.o [1]
+no_os_tick              0x2000111c    0x4  Data  Lc  platform_init.o [1]
+ota_write_data_offset   0x20001124    0x4  Data  Lc  upgrade_flash.o [1]
+pFlash                  0x20000fd0   0x20  Data  Gb  stm32f1xx_hal_flash.o [1]
+p_upgrade               0x20000388    0x4  Data  Gb  upgrade_flash.o [1]
+perform_ref_signal_measurement
+                        0x08003923   0x9c  Code  Gb  vl53l0x_api_calibration.o [1]
+platform_can_drivers    0x20000354   0x14  Data  Gb  platform.o [1]
+platform_can_init       0x08005959  0x168  Code  Gb  platform_can.o [1]
+platform_can_rx_irq     0x08005b11   0x46  Code  Gb  platform_can.o [1]
+platform_can_send_message
+                        0x08005ac1   0x50  Code  Gb  platform_can.o [1]
+platform_flash_drivers  0x200010e4    0xc  Data  Gb  platform.o [1]
+platform_flash_erase    0x08005233   0xc0  Code  Gb  platform_flash.o [1]
+platform_flash_init     0x080051cd   0x66  Code  Gb  platform_flash.o [1]
+platform_flash_peripherals
+                        0x0800d668   0x10  Data  Gb  platform.o [1]
+platform_flash_write    0x080052f3   0xc8  Code  Gb  platform_flash.o [1]
+platform_gpio_get_port_number
+                        0x08004815   0x32  Code  Gb  platform_gpio.o [1]
+platform_gpio_init      0x080046c5   0x70  Code  Gb  platform_gpio.o [1]
+platform_gpio_input_get
+                        0x080047bf   0x26  Code  Gb  platform_gpio.o [1]
+platform_gpio_irq_manager_init
+                        0x080047e5   0x30  Code  Gb  platform_gpio.o [1]
+platform_gpio_output_high
+                        0x08004735   0x2c  Code  Gb  platform_gpio.o [1]
+platform_gpio_output_low
+                        0x08004761   0x2c  Code  Gb  platform_gpio.o [1]
+platform_gpio_output_trigger
+                        0x0800478d   0x32  Code  Gb  platform_gpio.o [1]
+platform_gpio_pins      0x0800c650  0x100  Data  Gb  platform.o [1]
+platform_gpio_set_alternate_function
+                        0x08004847   0x50  Code  Gb  platform_gpio.o [1]
+platform_init_peripheral_irq_priorities
+                        0x0800856f   0x84  Code  Gb  platform.o [1]
+platform_mcu_powersave_disable
+                        0x08005bcd    0x4  Code  Gb  platform_mcu_powersave.o [1]
+platform_mcu_powersave_enable
+                        0x08005bd1    0x4  Code  Gb  platform_mcu_powersave.o [1]
+platform_mcu_powersave_init
+                        0x08005bc9    0x4  Code  Gb  platform_mcu_powersave.o [1]
+platform_mcu_reset      0x080082dd    0x8  Code  Gb  platform_init.o [1]
+platform_uart_drivers   0x200002ac   0x68  Data  Gb  platform.o [1]
+platform_uart_get_port_number
+                        0x08005025   0x24  Code  Gb  platform_uart.o [1]
+platform_uart_init      0x080049f3  0x508  Code  Gb  platform_uart.o [1]
+platform_uart_irq       0x08005089   0x40  Code  Gb  platform_uart.o [1]
+platform_uart_peripherals
+                        0x0800c750   0x78  Data  Gb  platform.o [1]
+platform_uart_rx_dma_irq
+                        0x0800511f   0x56  Code  Gb  platform_uart.o [1]
+platform_uart_transmit_bytes
+                        0x08004efb   0x64  Code  Gb  platform_uart.o [1]
+platform_uart_tx_dma_irq
+                        0x080050c9   0x56  Code  Gb  platform_uart.o [1]
+platform_watchdog_init  0x0800862d    0x6  Code  Gb  platform_watchdog.o [1]
+platform_watchdog_kick  0x08008633    0x4  Code  Gb  platform_watchdog.o [1]
+prepend_alloc           0x080086bd  0x36c  Code  Lc  dlmalloc.o [3]
+printf                  0x080051a9   0x24  Code  Gb  printf.o [3]
+putchar                 0x0800d169   0x28  Code  Gb  putchar.o [3]
+real_data               0x2000112e    0x1  Data  Gb  application.o [1]
+receive_bytes           0x08004f5f   0xb6  Code  Lc  platform_uart.o [1]
+refArrayQuadrants       0x20000368   0x10  Data  Gb  vl53l0x_api_calibration.o [1]
+ring_buffer_init        0x08006301   0x12  Code  Gb  RingBufferUtils.o [1]
+ring_buffer_used_space  0x08006313   0x16  Code  Gb  RingBufferUtils.o [1]
+segment_holding         0x0800863d   0x1a  Code  Lc  dlmalloc.o [3]
+sequence_step_enabled   0x080023c7   0x54  Code  Gb  vl53l0x_api.o [1]
+set_ref_spad_map        0x0800382b   0x18  Code  Gb  vl53l0x_api_calibration.o [1]
+set_sequence_step_timeout
+                        0x08000ab9  0x188  Code  Gb  vl53l0x_api_core.o [1]
+single_read_I2C0        0x080035ab   0x60  Code  Gb  i2c.o [1]
+single_write_I2C0       0x08003477   0x50  Code  Gb  i2c.o [1]
+sprintf                 0x0800bcd9   0x34  Code  Gb  sprintf.o [3]
+stdio_hardfault         0x0800842f   0x28  Code  Gb  platform_init.o [1]
+stdio_rx_buffer         0x200010d4   0x10  Data  Lc  platform_init.o [1]
+stdio_rx_data           0x20000f68   0x40  Data  Lc  platform_init.o [1]
+stdio_uart_config       0x0800d750    0xc  Data  Lc  platform_init.o [1]
+strchr                  0x080080e1         Code  Gb  strchr.o [4]
+strlen                  0x080080f9         Code  Gb  strlen.o [4]
+strrchr                 0x08005199   0x10  Code  Gb  URLUtils.o [1]
+sysTickHandler          0x08008457   0x16  Code  Gb  platform_init.o [1]
+sys_alloc               0x08008a29  0x386  Code  Lc  dlmalloc.o [3]
+sys_led_start_time      0x20001108    0x4  Data  Gb  application.o [1]
+sys_light_time          0x20001110    0x4  Data  Gb  application.o [1]
+tmalloc_large           0x08008dbd  0x390  Code  Lc  dlmalloc.o [3]
+tmalloc_small           0x0800914d  0x210  Code  Lc  dlmalloc.o [3]
+uart_irq_vectors        0x0800d790    0x4  Data  Lc  platform_uart.o [1]
+uart_rx_dmaHandle       0x20000e80   0xa8  Data  Lc  platform.o [1]
+uart_tx_dmaHandle       0x20000dd8   0xa8  Data  Lc  platform.o [1]
+upgradeCheckFlash       0x0800acc9  0x170  Code  Gb  upgrade_flash.o [1]
+upgradeFinishCheckProcess
+                        0x0800a2d9   0x98  Code  Lc  can_protocol.o [1]
+upgradeFirmwareRecevingProcess
+                        0x0800a25b   0x7e  Code  Lc  can_protocol.o [1]
+upgradePrepareFlash     0x0800a96d  0x272  Code  Gb  upgrade_flash.o [1]
+upgradePrepareProcess   0x0800a0c5  0x196  Code  Lc  can_protocol.o [1]
+upgradeWriteFlashData   0x0800abe5   0xe2  Code  Gb  upgrade_flash.o [1]
+upgrade_content         0x2000105c   0x18  Data  Lc  upgrade_flash.o [1]
+uwTick                  0x20001120    0x4  Data  Lc  stm32f1xx_hal.o [1]
+
+
+[1] = C:\Users\admin\Desktop\EVT2-IAR\NOAH_LIGHT_Update\build\PowerBoard_V2\application\obj_RVMDK
+[2] = command line
+[3] = dl7M_tln.a
+[4] = rt7M_tl.a
+[5] = shb_l.a
+
+  51 256 bytes of readonly  code memory
+   4 972 bytes of readonly  data memory
+   8 753 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
