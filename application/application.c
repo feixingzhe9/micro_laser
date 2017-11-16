@@ -32,8 +32,7 @@ int main( void )
   
   bsp_Init();
   Platform_Init();
-  light_index = GetCanSrcId();
-  
+
   MicoCanInitialize( MICO_CAN1 );
 
   I2C0_Init();
@@ -48,7 +47,7 @@ int main( void )
   
   for(;;)
   {
-    SysLight();
+    //SysLight();
     can_protocol_period();
     SysLed();  
   }

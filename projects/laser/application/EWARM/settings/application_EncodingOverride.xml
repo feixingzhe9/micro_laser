@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<userOverrides>
+  <override>
+    <path>E:\c\NOAH_LIGHT_Update\application\platform\can_protocol.c</path>
+    <encoding>System</encoding>
+  </override>
+  <override>
+    <path>E:\c\NOAH_LIGHT_Update\vl53l0x\i2c.c</path>
+    <encoding>System</encoding>
+  </override>
+  <override>
+    <path>E:\c\Ultrasonic-\signle\application\platform\can_protocol.c</path>
+    <encoding>System</encoding>
+  </override>
+  <override>
+    <path>F:\mg\Ultrasonic-\application\platform\can_protocol.c</path>
+    <encoding>System</encoding>
+  </override>
+  <override>
+    <path>F:\mg\micro_laser\application\platform\can_protocol.c</path>
+    <encoding>System</encoding>
+  </override>
+  <override>
+    <path>F:\mg\micro_laser\vl53l0x\i2c.c</path>
+    <encoding>System</encoding>
+  </override>
+</userOverrides>
+
+

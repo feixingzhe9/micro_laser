@@ -17,7 +17,8 @@
 //#define CAN_SUB_PB_ID   0x51
 #define SRCID           0x06
 
-#define ULTRASONIC_SRC_ID_BASE          0x60
+
+#define MICRO_LASER_SRC_ID_BASE         0x70
 
 #define CAN_CMD_READ_VERSION            0x01
 

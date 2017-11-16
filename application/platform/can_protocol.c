@@ -48,24 +48,55 @@ can_pkg_t can_pkg[CAN_FIFO_SIZE] = {0};
  
 
 extern uint8_t GetKeyValue(mico_gpio_t gpio);
-uint32_t my_id;
+//uint32_t my_id;
 uint8_t GetCanSrcId(void)
 {
-    uint8_t key_value = 0;
-
+  
+#define DEBOUNCE_TIME       100/SYSTICK_PERIOD
+    uint8_t new_key_value = 0;
+    uint8_t old_key_value = 0;
     uint8_t tmp_1 = 0;
     uint8_t tmp_2 = 0;
     uint8_t tmp_3 = 0;
     uint8_t tmp_4 = 0;
-       
-    tmp_1 = GetKeyValue(MICO_GPIO_KEY_S0);
-    tmp_2 = GetKeyValue(MICO_GPIO_KEY_S1);
-    tmp_3 = GetKeyValue(MICO_GPIO_KEY_S2); 
-    tmp_4 = GetKeyValue(MICO_GPIO_KEY_S3);
+    uint8_t tmp_5 = 0;
+    uint8_t tmp_6 = 0;
+    
+    static uint32_t start_time = 0;
+    start_time = os_get_time();
+    while(os_get_time() - start_time <= DEBOUNCE_TIME)
+    {
+        old_key_value = new_key_value;
+#if 1       
+        tmp_1 = GetKeyValue(MICO_GPIO_KEY_S0);
+        tmp_2 = GetKeyValue(MICO_GPIO_KEY_S1);
+        tmp_3 = GetKeyValue(MICO_GPIO_KEY_S2); 
+        tmp_4 = GetKeyValue(MICO_GPIO_KEY_S3);
+        //tmp_5 = GetKeyValue(MICO_GPIO_KEY_S4);
+        //tmp_6 = GetKeyValue(MICO_GPIO_KEY_S5);
+        new_key_value = tmp_1 | (tmp_2 << 1) | (tmp_3 << 2) | (tmp_4 << 3) | (tmp_5 << 4) | (tmp_6 << 5);        
+#else
+        new_key_value |=  GetKeyValue(MICO_GPIO_KEY_S0);
+        new_key_value |=  GetKeyValue(MICO_GPIO_KEY_S1)<<1;
+        new_key_value |=  GetKeyValue(MICO_GPIO_KEY_S2)<<2;
+        new_key_value |=  GetKeyValue(MICO_GPIO_KEY_S3)<<3;
+        new_key_value |=  GetKeyValue(MICO_GPIO_KEY_S4)<<4;
+        new_key_value |=  GetKeyValue(MICO_GPIO_KEY_S5)<<5;
+#endif   
+        if(new_key_value != old_key_value)
+        {
+            start_time = os_get_time();
+        }     
+    }
 
-    key_value = tmp_1 | (tmp_2 << 1) | (tmp_3 << 2) | (tmp_4 << 3) ;        
-
-    return (key_value);      
+      
+    if((new_key_value != 0) && (new_key_value <= 0x0f))
+    {
+        return new_key_value + MICRO_LASER_SRC_ID_BASE;
+    }
+    CanProtocolLog("Ultrasonic CAN MAC ID out of range ! ! ! \r\n");
+    return MICRO_LASER_SRC_ID_BASE;
+        
 }
 
 
@@ -435,6 +466,8 @@ static OSStatus upgradeFinishCheckProcess( CAN_ID_UNION *id )
     ack = 0x00;
     canAckBack(id->CANx_ID, &ack, 1);
     CanProtocolLog("MD5 success,sent right ack");
+    platform_mcu_reset();
+
   }
   else
   {
@@ -449,6 +482,7 @@ static OSStatus upgradeFinishCheckProcess( CAN_ID_UNION *id )
 
 extern uint8_t light_index;
 extern uint8_t real_data;
+extern uint32_t light_src_id;
 #define SENSOR_CAN_ID    (0x60)
 #define LIGHT_SRC_ID_BASE   (0x69)
 void can_light_send(void)
@@ -457,7 +491,7 @@ void can_light_send(void)
       uint8_t rxdata[2] = {0};
       
       rxdata[0] = real_data;
-      light_id.CanID_Struct.SrcMACID  = LIGHT_SRC_ID_BASE + light_index;
+      light_id.CanID_Struct.SrcMACID  = light_src_id;
       light_id.CanID_Struct.DestMACID = SENSOR_CAN_ID;
       light_id.CanID_Struct.ACK = 1;
       light_id.CanID_Struct.FUNC_ID = 2;

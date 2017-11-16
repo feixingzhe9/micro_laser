@@ -19,7 +19,7 @@
 #define platform_can_log(format, ...)  custom_log("", format, ##__VA_ARGS__)
 
 typedef unsigned int    u32;
-extern uint8_t light_index;
+uint32_t light_src_id = 0;
 //#define CAN_FILTER_ID       ((0x0069+light_index) << 13)
 #define CAN_FILTER_MASK     (0xFF << 13)
    
@@ -27,9 +27,8 @@ OSStatus platform_can_init( const platform_can_driver_t* can )
 {
     OSStatus    err = kNoErr;
     CAN_FilterConfTypeDef     CAN_FilterInitStructure;
-    uint32_t light_src_id = 0;
-    
-    light_src_id = 0x69+light_index;
+
+    light_src_id = GetCanSrcId();
     platform_mcu_powersave_disable();
     
     require_action_quiet( can, exit, err = kParamErr);
@@ -78,12 +77,19 @@ OSStatus platform_can_init( const platform_can_driver_t* can )
     can->handle->Init.RFLM              = DISABLE;
     can->handle->Init.TXFP              = DISABLE;
     require_action_quiet( HAL_CAN_Init( can->handle ) == HAL_OK, exit, err = kGeneralErr );
- 
+    
+#if 0
     CAN_FilterInitStructure.FilterIdHigh        = ((light_src_id << 3) >> 16) & 0xffff;
     CAN_FilterInitStructure.FilterIdLow         = (uint16_t)(light_src_id << 3) | CAN_ID_EXT;
     CAN_FilterInitStructure.FilterMaskIdHigh    = (CAN_FILTER_MASK << 3) >> 16;
     CAN_FilterInitStructure.FilterMaskIdLow     = ((CAN_FILTER_MASK << 3) & 0xffff) | 0x06;
-
+#else
+    CAN_FilterInitStructure.FilterIdHigh        = 0;
+    CAN_FilterInitStructure.FilterIdLow         = 0;
+    CAN_FilterInitStructure.FilterMaskIdHigh    = 0;
+    CAN_FilterInitStructure.FilterMaskIdLow     = 0;
+#endif
+    
     CAN_FilterInitStructure.FilterFIFOAssignment = CAN_FILTER_FIFO0;
     CAN_FilterInitStructure.FilterNumber        = 0;
     CAN_FilterInitStructure.FilterMode          = CAN_FILTERMODE_IDMASK;
