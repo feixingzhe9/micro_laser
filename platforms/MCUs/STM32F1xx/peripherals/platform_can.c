@@ -78,17 +78,12 @@ OSStatus platform_can_init( const platform_can_driver_t* can )
     can->handle->Init.TXFP              = DISABLE;
     require_action_quiet( HAL_CAN_Init( can->handle ) == HAL_OK, exit, err = kGeneralErr );
     
-#if 0
-    CAN_FilterInitStructure.FilterIdHigh        = ((light_src_id << 3) >> 16) & 0xffff;
-    CAN_FilterInitStructure.FilterIdLow         = (uint16_t)(light_src_id << 3) | CAN_ID_EXT;
-    CAN_FilterInitStructure.FilterMaskIdHigh    = (CAN_FILTER_MASK << 3) >> 16;
-    CAN_FilterInitStructure.FilterMaskIdLow     = ((CAN_FILTER_MASK << 3) & 0xffff) | 0x06;
-#else
-    CAN_FilterInitStructure.FilterIdHigh        = 0;
-    CAN_FilterInitStructure.FilterIdLow         = 0;
-    CAN_FilterInitStructure.FilterMaskIdHigh    = 0;
-    CAN_FilterInitStructure.FilterMaskIdLow     = 0;
-#endif
+
+    CAN_FilterInitStructure.FilterIdHigh        = ((light_src_id<<3)<<13)>>16;//can_mac_id>>16;//((can_mac_id<<3)<<13)>>16;
+    CAN_FilterInitStructure.FilterIdLow         = ((light_src_id<<3)<<13) & 0xffff| CAN_ID_EXT ;//can_mac_id & 0xffff;//((can_mac_id<<3)<<13) & 0xffff;
+    CAN_FilterInitStructure.FilterMaskIdHigh    = (CAN_FILTER_MASK<<3)>>16;
+    CAN_FilterInitStructure.FilterMaskIdLow     = (CAN_FILTER_MASK<<3) & 0xffff | CAN_ID_EXT | CAN_RTR_REMOTE;
+
     
     CAN_FilterInitStructure.FilterFIFOAssignment = CAN_FILTER_FIFO0;
     CAN_FilterInitStructure.FilterNumber        = 0;
@@ -171,9 +166,9 @@ OSStatus platform_can_send_message( const platform_can_driver_t* can, const CanT
   require_action_quiet( msg->DLC <= 8, exit, err = kParamErr );
   //memcpy(can->handle->pTxMsg->Data, msg->Data, msg->DLC);
   memcpy(can->handle->pTxMsg, msg, sizeof(CanTxMsgTypeDef));
-#if 1
-  //require_action_quiet( HAL_CAN_Transmit_IT( can->handle ) == HAL_OK, exit, err = kGeneralErr );
-  require_action_quiet( HAL_CAN_Transmit( can->handle, 0x10 ) == HAL_OK, exit, err = kGeneralErr );
+#if 0 
+  require_action_quiet( HAL_CAN_Transmit_IT( can->handle ) == HAL_OK, exit, err = kGeneralErr );
+  //require_action_quiet( HAL_CAN_Transmit( can->handle, 0x10 ) == HAL_OK, exit, err = kGeneralErr );
 #else
   if(HAL_CAN_Transmit_IT( can->handle ) != HAL_OK)
   {

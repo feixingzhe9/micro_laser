@@ -14,9 +14,11 @@
 #include "vl53l0x_def.h"
 
 #define os_PowerBoard_log(format, ...)  custom_log("Light", format, ##__VA_ARGS__)
-#define Application_REVISION "v0.1"
 
-//#define HOMWEE_TEST 
+
+const  char menu[] =
+"\r\n"
+"Application for %s,\r\nSOFTWARE_VERSION: %s,\r\nHARDWARE_REVISION: %s\r\n";
 
 void SysLed(void);
 void SysLight(void);
@@ -29,7 +31,7 @@ int main( void )
   init_platform();
  
   os_PowerBoard_log( "System clock = %d Hz",HAL_RCC_GetHCLKFreq() );
-  
+  printf ( menu, MODEL, SW_VERSION, HARDWARE_REVISION );
   bsp_Init();
   Platform_Init();
 
@@ -42,12 +44,12 @@ int main( void )
   
   for(uint8_t i = 0; i < 10; i++)
   {
-      delay_ms(500);
+      //delay_ms(500);
   }
   
   for(;;)
   {
-    //SysLight();
+    SysLight();
     can_protocol_period();
     SysLed();  
   }
@@ -97,7 +99,7 @@ void SysLight(void)
         else
         {
             light_delay = 0;
-            can_light_send();
+            //can_light_send();
         }
         sys_light_time = os_get_time();
     }

@@ -92,7 +92,7 @@ uint8_t GetCanSrcId(void)
       
     if((new_key_value != 0) && (new_key_value <= 0x0f))
     {
-        return new_key_value + MICRO_LASER_SRC_ID_BASE;
+        return new_key_value + MICRO_LASER_SRC_ID_BASE - 1;
     }
     CanProtocolLog("Ultrasonic CAN MAC ID out of range ! ! ! \r\n");
     return MICRO_LASER_SRC_ID_BASE;
@@ -567,7 +567,8 @@ void can_protocol_period( void )
 
         if(seg_polo == ONLYONCE)
         {
-            //Update Sensor data to ros
+            
+#if 0
             if(id.CanID_Struct.SrcMACID == 0x01)
             {
                 tx_len = CmdProcessing(&id, rx_buf.CanData_Struct.Data, rx_data_len - 1, CanTxdataBuff );
@@ -577,6 +578,7 @@ void can_protocol_period( void )
                     CanTX( MICO_CAN1, id.CANx_ID, CanTxdataBuff, tx_len );
                 }
             }
+#endif 
             
             if(id.CanID_Struct.SrcMACID == 0x60)
             {
@@ -592,21 +594,6 @@ void can_protocol_period( void )
                   light_id.CanID_Struct.res = 0;
                   CanTX( MICO_CAN1, light_id.CANx_ID, rxdata, 2);
             }
-            
-            //Get Utrla data to Sensor
-            if((id.CanID_Struct.SrcMACID > 0x60) && (id.CanID_Struct.SrcMACID <= (0x60 + 9)))
-            {   
-                 i = id.CanID_Struct.SrcMACID - 0x61;
-                 SensorData[i+ SENSOR_LIGHT_NUM] = rx_buf.CanData_Struct.Data[1];
-            }
-            
-            //Get Light data to Sensor
-            if((id.CanID_Struct.SrcMACID >= 0x70) && (id.CanID_Struct.SrcMACID < (0x70 + 13)))
-            {
-                 i = id.CanID_Struct.SrcMACID - 0x70;
-                 SensorData[i] = rx_buf.CanData_Struct.Data[1];
-            }
-
         }
         else 
         {

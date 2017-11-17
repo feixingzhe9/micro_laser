@@ -171,7 +171,6 @@
           <state>USE_STDPERIPH_DRIVER</state>
           <state>STM32F10X_MD</state>
           <state>STM32F103xB</state>
-          <state>STM32F103x8</state>
           <state>USE_STDPERIPH_DRIVER</state>
           <state>xSIZE_OPTIMIZE</state>
           <state>NO_MICO_RTOS</state>
@@ -617,7 +616,7 @@
         <option>
           <name>OOCOutputFormat</name>
           <version>2</version>
-          <state>2</state>
+          <state>1</state>
         </option>
         <option>
           <name>OCOutputOverride</name>
@@ -625,7 +624,7 @@
         </option>
         <option>
           <name>OOCOutputFile</name>
-          <state>micro_laser.bin</state>
+          <state>micro_laser.hex</state>
         </option>
         <option>
           <name>OOCCommandLineProducer</name>
